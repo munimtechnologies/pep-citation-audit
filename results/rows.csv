@@ -1,0 +1,637 @@
+file,line,pep,sep,flag,cited_score,best_other,best_other_score,label,cited_title,best_other_title,from_next_line
+Doc/builtins/exceptions.rst,849,3151,-,ok,1.0,3153,0.5,Reworking the OS and IO exception hierarchy,Reworking the OS and IO exception hierarchy,Asynchronous IO support,False
+Doc/builtins/functions.rst,1322,667,",",weak,0.0,246,0.5,the semantics of mutating the mapping objects,Consistent views of namespaces,Object Adaptation,False
+Doc/builtins/stdtypes.rst,4879,461,-,ok,1.0,358,0.5,Adding % formatting to bytes and bytearray,Adding % formatting to bytes and bytearray,"The ""bytes"" Object",False
+Doc/builtins/stdtypes.rst,6421,484,-,ok,1.0,483,0.6667,Type Hints Introducing Python's framework for type annotations.,Type Hints,The Theory of Type Hints,True
+Doc/builtins/stdtypes.rst,6424,585,-,ok,1.0,484,1.0,Type Hinting Generics In Standard Collections,Type Hinting Generics In Standard Collections,Type Hints,False
+Doc/builtins/stdtypes.rst,6544,604,--,ok,0.6667,677,0.6667,PEP proposing the X | Y syntax and the Union type.,Allow writing union types as ``X | Y``,Callable Type Syntax,False
+Doc/c-api/frame.rst,142,667,",",weak,0.0,239,0.5,return an instance of PyFrameLocalsProxy_Type.,Consistent views of namespaces,Adding a Rational Type to Python,False
+Doc/c-api/frame.rst,219,523,",",weak,0.0,3099,0.3333,you will not need this.,Adding a frame evaluation API to CPython,Things that will Not Change in Python 3000,False
+Doc/c-api/reflection.rst,40,667,",",weak,0.0,495,0.3333,"PyFrame_GetLocals, locals, and",Consistent views of namespaces,Local Time Disambiguation,False
+Doc/c-api/typeobj.rst,1476,634,--,ok,1.0,622,1.0,Structural Pattern Matching: Specification,Structural Pattern Matching: Specification,Structural Pattern Matching,False
+Doc/c-api/typeobj.rst,1498,634,--,ok,1.0,622,1.0,Structural Pattern Matching: Specification,Structural Pattern Matching: Specification,Structural Pattern Matching,False
+Doc/c-api/typeobj.rst,2502,442,:,ok,1.0,246,0.5,"""Safe object finalization""",Safe object finalization,Object Adaptation,False
+Doc/faq/programming.rst,1916,8,",",weak,0.0,531,0.3333,an identity test is the preferred way to check,Style Guide for Python Code,Existence checking operators,False
+Doc/glossary.rst,59,649,",",weak,0.0,268,0.25,which describe this functionality.,Deferred Evaluation Of Annotations Using Descriptors,Extended HTTP functionality and WebDAV,False
+Doc/glossary.rst,628,484,",",weak,0.0,268,0.25,which describe this functionality.,Type Hints,Extended HTTP functionality and WebDAV,True
+Doc/glossary.rst,709,585,",",weak,0.0,2,0.5,and the typing module.,Type Hinting Generics In Standard Collections,Procedure for Adding New Modules,False
+Doc/glossary.rst,1490,387,:,weak,0.0,4,0.3333,Soft Deprecation <https://peps.python.org/pep-0387/#soft-deprecation>`_.,Backwards Compatibility Policy,Deprecation of Standard Modules,True
+Doc/glossary.rst,1674,484,",",weak,0.0,268,0.25,which describe this functionality.,Type Hints,Extended HTTP functionality and WebDAV,False
+Doc/glossary.rst,1688,484,",",weak,0.0,268,0.25,which describe this functionality.,Type Hints,Extended HTTP functionality and WebDAV,False
+Doc/glossary.rst,1694,3116,",",weak,0.0,358,0.5,as well as bytes.splitlines for an additional use.,New I/O,"The ""bytes"" Object",True
+Doc/glossary.rst,1714,526,",",weak,0.0,268,0.25,which describe this functionality.,Syntax for Variable Annotations,Extended HTTP functionality and WebDAV,False
+Doc/howto/free-threading-python.rst,24,703,–,ok,1.0,311,0.5,Making the Global Interpreter Lock Optional in CPython for an,Making the Global Interpreter Lock Optional in CPython,Simplified Global Interpreter Lock Acquisition for Extensions,False
+Doc/howto/functional.rst,1255,289,:,ok,1.0,3142,0.5,"""Generator Expressions""",Generator Expressions,"Add a ""while"" clause to generator expressions",False
+Doc/howto/functional.rst,1257,342,:,ok,1.0,220,0.6667,"""Coroutines via Enhanced Generators"" describes the new generator",Coroutines via Enhanced Generators,"Coroutines, Generators, Continuations",False
+Doc/library/__future__.rst,52,227,:,ok,1.0,3104,0.25,*Statically Nested Scopes*,Statically Nested Scopes,Access to Names in Outer Scopes,False
+Doc/library/__future__.rst,56,255,:,ok,1.0,289,0.5,*Simple Generators* * * .. data:: division,Simple Generators,Generator Expressions,True
+Doc/library/__future__.rst,60,238,:,ok,1.0,211,0.3333,*Changing the Division Operator*,Changing the Division Operator,Adding A New Outer Product Operator,False
+Doc/library/__future__.rst,64,328,:,ok,1.0,221,1.0,*Imports: Multi-Line and Absolute/Relative*,Imports: Multi-Line and Absolute/Relative,Import As,False
+Doc/library/__future__.rst,68,343,:,ok,1.0,214,0.6667,*The “with” Statement* * * .. data:: print_function,"The ""with"" Statement",Extended Print Statement,True
+Doc/library/__future__.rst,72,3105,:,ok,1.0,232,0.5,*Make print a function*,Make print a function,Function Attributes,False
+Doc/library/__future__.rst,76,3112,:,ok,1.0,3000,1.0,*Bytes literals in Python 3000*,Bytes literals in Python 3000,Python 3000,False
+Doc/library/__future__.rst,80,479,:,ok,0.8,255,0.5,*StopIteration handling inside generators*,Change StopIteration handling inside generators,Simple Generators,False
+Doc/library/__future__.rst,84,563,:,ok,1.0,3107,0.5,"*Postponed evaluation of annotations*,",Postponed Evaluation of Annotations,Function Annotations,False
+Doc/library/__future__.rst,85,649,:,ok,1.0,563,0.6667,*Deferred evaluation of annotations using descriptors*,Deferred Evaluation Of Annotations Using Descriptors,Postponed Evaluation of Annotations,False
+Doc/library/__future__.rst,144,236,-,ok,1.0,0,0.3333,Back to the __future__ The original proposal for the __future__ mechanism.,Back to the __future__,Index of Python Enhancement Proposals (PEPs),True
+Doc/library/cmath.rst,300,485,--,ok,1.0,232,0.5,A function for testing approximate equality,A Function for testing approximate equality,Function Attributes,False
+Doc/library/collections.rst,1216,468,",",weak,0.25,472,0.6667,order is retained for keyword arguments,Preserving the order of \*\*kwargs in a function.,Support for indexing with keyword arguments,False
+Doc/library/concurrent.futures.rst,700,3148,--,ok,1.0,236,0.5,futures - execute computations asynchronously,futures - execute computations asynchronously,Back to the __future__,False
+Doc/library/contextlib.rst,940,343,-,ok,1.0,244,0.5,"The ""with"" statement The specification, background, and examples for the Python with","The ""with"" Statement",The ``directive`` statement,True
+Doc/library/csv.rst,39,305,-,ok,1.0,488,0.3333,CSV File API,CSV File API,Elimination of PYO files,False
+Doc/library/ensurepip.rst,40,453,:,ok,1.0,439,0.4,Explicit bootstrapping of pip in Python installations,Explicit bootstrapping of pip in Python installations,Inclusion of implicit pip bootstrap in Python installation,False
+Doc/library/gc.rst,292,442,",",weak,0.3333,270,0.5,objects with a ~object.__del__ method don't end,Safe object finalization,uniq method for list objects,False
+Doc/library/importlib.rst,719,489,",",weak,0.0,749,0.5,the builtin importer now implements,Multi-phase extension module initialization,Implementing PEP 649,False
+Doc/library/inspect.rst,1264,362,-,ok,1.0,232,0.5,Function Signature Object.,Function Signature Object,Function Attributes,False
+Doc/library/logging.rst,1577,282,-,ok,1.0,337,0.5,A Logging System The proposal which described this feature for inclusion in the Python standard,A Logging System,Logging Usage in the Standard Library,True
+Doc/library/math.rst,308,485,--,ok,1.0,232,0.5,A function for testing approximate equality,A Function for testing approximate equality,Function Attributes,False
+Doc/library/pathlib.rst,45,428,:,ok,1.0,355,1.0,The pathlib module -- object-oriented filesystem paths.,The pathlib module -- object-oriented filesystem paths,Path - Object oriented filesystem paths,False
+Doc/library/pickle.rst,1076,574,--,ok,1.0,307,0.6667,Pickle protocol 5 with out-of-band data,Pickle protocol 5 with out-of-band data,Extensions to the pickle protocol,False
+Doc/library/resource.rst,25,3151,",",weak,0.0,557,0.5,this class was made an alias of OSError.,Reworking the OS and IO exception hierarchy,Data Classes,False
+Doc/library/runpy.rst,182,338,--,ok,1.0,2,0.5,Executing modules as scripts,Executing modules as scripts,Procedure for Adding New Modules,False
+Doc/library/runpy.rst,185,366,--,ok,1.0,221,1.0,Main module explicit relative imports,Main module explicit relative imports,Import As,False
+Doc/library/runpy.rst,188,451,--,ok,1.0,221,1.0,A ModuleSpec Type for the Import System,A ModuleSpec Type for the Import System,Import As,False
+Doc/library/select.rst,35,3151,",",weak,0.0,557,0.5,this class was made an alias of OSError.,Reworking the OS and IO exception hierarchy,Data Classes,False
+Doc/library/shutil.rst,671,282,",",ok,0.5,549,0.5,usually an instance of logging.Logger.,A Logging System,Instance Descriptors,True
+Doc/library/site.rst,525,370,--,ok,1.0,582,0.6667,Per user site-packages directory,Per user site-packages directory,Python local packages directory,False
+Doc/library/site.rst,526,829,--,ok,0.5,221,1.0,Startup entry points and the deprecation of import lines in .pth files,Package Startup Configuration Files,Import As,False
+Doc/library/socket.rst,318,3151,",",weak,0.0,557,0.5,this class was made an alias of OSError.,Reworking the OS and IO exception hierarchy,Data Classes,False
+Doc/library/sqlite3.rst,31,249,",",weak,0.0,0,0.0,and,Python Database API Specification v2.0,Index of Python Enhancement Proposals (PEPs),False
+Doc/library/sqlite3.rst,54,249,-,ok,0.8,248,0.8,Database API Specification 2.0,Python Database API Specification v2.0,Python Database API Specification v1.0,False
+Doc/library/string.rst,142,3101,",",weak,0.0,294,0.3333,"such as ""0[name]"" or ""label.title"". *args* and *kwargs* are as passed in to",Advanced String Formatting,Type Names in the types Module,True
+Doc/library/subprocess.rst,23,324,--,ok,0.6667,2,0.5,PEP proposing the subprocess module,subprocess - New process module,Procedure for Adding New Modules,False
+Doc/library/superseded.rst,20,594,",",weak,0.0,0,0.0,there are,Removing dead batteries from the standard library,Index of Python Enhancement Proposals (PEPs),False
+Doc/library/sys.rst,1308,734,",",weak,0.3333,210,0.3333,and concurrent.interpreters.,Multiple Interpreters in the Stdlib,Decoupling the Interpreter Loop,False
+Doc/library/sys.rst,1559,393,",",weak,0.0,421,0.5,sys.maxunicode used to be either 0xFFFF,Flexible String Representation,Adding sys.implementation,False
+Doc/library/types.rst,69,3115,-,ok,1.0,3000,1.0,Metaclasses in Python 3000 Introduced the __prepare__ namespace hook,Metaclasses in Python 3000,Python 3000,True
+Doc/library/types.rst,127,560,-,ok,1.0,294,0.6667,Core support for typing module and generic types,Core support for typing module and generic types,Type Names in the types Module,False
+Doc/library/types.rst,308,585,-,ok,1.0,484,1.0,Type Hinting Generics In Standard Collections,Type Hinting Generics In Standard Collections,Type Hints,False
+Doc/library/types.rst,401,584,",",weak,0.0,380,0.3333,which simply delegates to the underlying mapping.,Add Union Operators To dict,Syntax for Delegating to a Subgenerator,True
+Doc/library/typing.rst,1218,612,--,ok,1.0,567,0.5,Parameter Specification Variables (the PEP which introduced,Parameter Specification Variables,Context Variables,False
+Doc/library/typing.rst,1285,526,",",ok,0.6667,593,0.5,a variable annotation wrapped in ClassVar,Syntax for Variable Annotations,Flexible function and variable annotations,False
+Doc/library/typing.rst,1522,593,-,ok,1.0,3107,1.0,Flexible function and variable annotations,Flexible function and variable annotations,Function Annotations,False
+Doc/library/typing.rst,2290,612,--,ok,1.0,567,0.5,Parameter Specification Variables (the PEP which introduced,Parameter Specification Variables,Context Variables,False
+Doc/library/weakref.rst,413,205,-,ok,1.0,42,0.5,"Weak References The proposal and rationale for this feature, including links to earlier",Weak References,Feature Requests,True
+Doc/library/zipimport.rst,46,273,-,ok,1.0,221,1.0,Import Modules from Zip Archives,Import Modules from Zip Archives,Import As,False
+Doc/library/zipimport.rst,48,273,",",weak,0.0,421,0.5,but uses an implementation written by Just,Import Modules from Zip Archives,Adding sys.implementation,False
+Doc/reference/compound_stmts.rst,595,343,-,ok,1.0,244,0.5,"The ""with"" statement The specification, background, and examples for the Python with","The ""with"" Statement",The ``directive`` statement,True
+Doc/reference/compound_stmts.rst,642,634,--,ok,1.0,622,1.0,Structural Pattern Matching: Specification,Structural Pattern Matching: Specification,Structural Pattern Matching,False
+Doc/reference/compound_stmts.rst,643,636,--,ok,1.0,622,1.0,Structural Pattern Matching: Tutorial,Structural Pattern Matching: Tutorial,Structural Pattern Matching,False
+Doc/reference/compound_stmts.rst,1200,634,--,ok,1.0,622,1.0,Structural Pattern Matching: Specification,Structural Pattern Matching: Specification,Structural Pattern Matching,False
+Doc/reference/compound_stmts.rst,1201,636,--,ok,1.0,622,1.0,Structural Pattern Matching: Tutorial,Structural Pattern Matching: Tutorial,Structural Pattern Matching,False
+Doc/reference/compound_stmts.rst,1378,3107,-,ok,1.0,593,0.5,Function Annotations The original specification for function annotations.,Function Annotations,Flexible function and variable annotations,True
+Doc/reference/compound_stmts.rst,1381,484,-,ok,1.0,483,0.6667,Type Hints Definition of a standard meaning for annotations: type hints.,Type Hints,The Theory of Type Hints,True
+Doc/reference/compound_stmts.rst,1384,526,-,ok,1.0,640,0.6667,Syntax for Variable Annotations,Syntax for Variable Annotations,Unused variable syntax,False
+Doc/reference/compound_stmts.rst,1388,563,-,ok,1.0,3107,0.5,Postponed Evaluation of Annotations,Postponed Evaluation of Annotations,Function Annotations,False
+Doc/reference/compound_stmts.rst,1392,318,-,ok,1.0,575,0.5,Decorators for Functions and Methods,Decorators for Functions and Methods,Unifying function/method classes,False
+Doc/reference/compound_stmts.rst,1497,3115,-,ok,1.0,3000,1.0,Metaclasses in Python 3000 The proposal that changed the declaration of metaclasses to the current,Metaclasses in Python 3000,Python 3000,True
+Doc/reference/compound_stmts.rst,1502,3129,-,ok,1.0,318,1.0,Class Decorators The proposal that added class decorators.  Function and method decorators,Class Decorators,Decorators for Functions and Methods,True
+Doc/reference/compound_stmts.rst,1750,492,-,ok,1.0,245,0.5,Coroutines with async and await syntax,Coroutines with async and await syntax,Python Interface Syntax,False
+Doc/reference/datamodel.rst,1669,626,-,ok,1.0,396,0.3333,Precise line numbers for debugging and other tools.,Precise line numbers for debugging and other tools.,Module Version Numbers,False
+Doc/reference/datamodel.rst,2474,562,-,ok,1.0,2,0.5,Module __getattr__ and __dir__,Module __getattr__ and __dir__,Procedure for Adding New Modules,False
+Doc/reference/datamodel.rst,2907,3115,-,ok,1.0,3000,1.0,Metaclasses in Python 3000 Introduced the __prepare__ namespace hook,Metaclasses in Python 3000,Python 3000,True
+Doc/reference/datamodel.rst,2982,3135,-,ok,1.0,367,1.0,New super Describes the implicit __class__ closure reference,New Super,New Super,True
+Doc/reference/datamodel.rst,3027,3119,-,ok,1.0,557,0.5,Introducing Abstract Base Classes,Introducing Abstract Base Classes,Data Classes,False
+Doc/reference/datamodel.rst,3045,484,-,ok,1.0,483,0.6667,Type Hints Introducing Python's framework for type annotations,Type Hints,The Theory of Type Hints,True
+Doc/reference/datamodel.rst,3170,560,-,ok,1.0,294,0.6667,Core Support for typing module and generic types,Core support for typing module and generic types,Type Names in the types Module,False
+Doc/reference/datamodel.rst,3607,343,-,ok,1.0,244,0.5,"The ""with"" statement The specification, background, and examples for the Python with","The ""with"" Statement",The ``directive`` statement,True
+Doc/reference/datamodel.rst,3640,634,-,ok,0.75,622,1.0,Structural Pattern Matching,Structural Pattern Matching: Specification,Structural Pattern Matching,False
+Doc/reference/datamodel.rst,3692,688,-,ok,1.0,3118,0.6667,Making the buffer protocol accessible in Python,Making the buffer protocol accessible in Python,Revising the buffer protocol,False
+Doc/reference/expressions.rst,1167,255,-,ok,1.0,343,1.0,Simple Generators The proposal for adding generators and the yield statement to Python.,Simple Generators,"The ""with"" Statement",True
+Doc/reference/expressions.rst,1170,342,-,ok,1.0,220,0.6667,Coroutines via Enhanced Generators,Coroutines via Enhanced Generators,"Coroutines, Generators, Continuations",False
+Doc/reference/expressions.rst,1174,380,-,ok,1.0,245,0.5,Syntax for Delegating to a Subgenerator,Syntax for Delegating to a Subgenerator,Python Interface Syntax,False
+Doc/reference/expressions.rst,1178,525,-,ok,1.0,828,0.5,Asynchronous Generators The proposal that expanded on 492 by adding generator capabilities to,Asynchronous Generators,Supporting 'yield from' in asynchronous generators,True
+Doc/reference/import.rst,579,420,",",ok,0.6667,382,1.0,namespace packages no,Implicit Namespace Packages,Namespace Packages,False
+Doc/reference/import.rst,961,302,",",weak,0.0,0,0.0,with,New Import Hooks,Index of Python Enhancement Proposals (PEPs),False
+Doc/reference/lexical_analysis.rst,611,3131,--,ok,1.0,730,0.3333,Supporting Non-ASCII Identifiers,Supporting Non-ASCII Identifiers,Adding iOS as a supported platform,False
+Doc/reference/lexical_analysis.rst,612,672,--,ok,1.0,100,0.5,Unicode-related Security Considerations for Python,Unicode-related Security Considerations for Python,Python Unicode Integration,False
+Doc/reference/lexical_analysis.rst,1193,498,--,ok,1.0,215,1.0,Literal String Interpolation,Literal String Interpolation,String Interpolation,False
+Doc/reference/lexical_analysis.rst,1194,701,--,ok,1.0,215,0.5,Syntactic formalization of f-strings,Syntactic formalization of f-strings,String Interpolation,False
+Doc/reference/simple_stmts.rst,249,3132,-,ok,1.0,798,0.5,Extended Iterable Unpacking,Extended Iterable Unpacking,Unpacking in Comprehensions,False
+Doc/reference/simple_stmts.rst,354,526,-,ok,1.0,640,0.6667,Syntax for Variable Annotations,Syntax for Variable Annotations,Unused variable syntax,False
+Doc/reference/simple_stmts.rst,359,484,-,ok,1.0,4,0.6667,Type hints The proposal that added the typing module to provide a standard,Type Hints,Deprecation of Standard Modules,True
+Doc/reference/simple_stmts.rst,1052,236,-,ok,1.0,0,0.3333,Back to the __future__ The original proposal for the __future__ mechanism.,Back to the __future__,Index of Python Enhancement Proposals (PEPs),True
+Doc/reference/simple_stmts.rst,1125,3104,-,ok,1.0,211,0.3333,Access to Names in Outer Scopes,Access to Names in Outer Scopes,Adding A New Outer Product Operator,False
+Doc/reference/simple_stmts.rst,1174,695,-,ok,1.0,677,0.6667,Type Parameter Syntax,Type Parameter Syntax,Callable Type Syntax,False
+Doc/using/cmdline.rst,125,338,--,ok,1.0,2,0.5,Executing modules as scripts,Executing modules as scripts,Procedure for Adding New Modules,False
+Doc/using/cmdline.rst,413,370,--,ok,1.0,582,0.6667,Per user site-packages directory,Per user site-packages directory,Python local packages directory,False
+Doc/using/cmdline.rst,986,370,--,ok,1.0,582,0.6667,Per user site-packages directory,Per user site-packages directory,Python local packages directory,False
+Doc/using/cmdline.rst,1001,370,--,ok,1.0,582,0.6667,Per user site-packages directory,Per user site-packages directory,Python local packages directory,False
+Doc/using/windows.rst,1334,11,",",ok,0.5,730,0.6667,a Python release only supports a Windows platform,CPython platform support,Adding iOS as a supported platform,False
+Doc/whatsnew/2.0.rst,114,1,",",ok,0.5,403,0.2,"""PEP Purpose and",PEP Purpose and Guidelines,"General purpose decorator clause (aka ""@in"" clause)",False
+Doc/whatsnew/2.0.rst,134,225,",",ok,0.6667,0,0.0,"""Elementwise/Objectwise",Elementwise/Objectwise Operators,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.1.rst,35,227,:,ok,0.6667,3104,0.25,Nested Scopes,Statically Nested Scopes,Access to Names in Outer Scopes,False
+Doc/whatsnew/2.1.rst,123,227,-,ok,1.0,3104,0.25,Statically Nested Scopes,Statically Nested Scopes,Access to Names in Outer Scopes,False
+Doc/whatsnew/2.1.rst,129,236,:,ok,0.5,244,0.5,__future__ Directives,Back to the __future__,The ``directive`` statement,False
+Doc/whatsnew/2.1.rst,153,236,-,ok,1.0,749,0.5,"Back to the __future__ Written by Tim Peters, and primarily implemented by Jeremy Hylton.",Back to the __future__,Implementing PEP 649,True
+Doc/whatsnew/2.1.rst,159,207,:,ok,1.0,535,0.6667,Rich Comparisons,Rich Comparisons,Rich comparison chaining,False
+Doc/whatsnew/2.1.rst,216,207,",",weak,0.0,0,0.0,or to,Rich Comparisons,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.1.rst,222,207,-,ok,1.0,535,0.6667,"Rich Comparisons Written by Guido van Rossum, heavily based on earlier work by David Ascher, and",Rich Comparisons,Rich comparison chaining,True
+Doc/whatsnew/2.1.rst,229,230,:,ok,1.0,256,0.25,Warning Framework,Warning Framework,Docstring Processing System Framework,False
+Doc/whatsnew/2.1.rst,289,5,-,ok,1.0,1,0.5,Guidelines for Language Evolution,Guidelines for Language Evolution,PEP Purpose and Guidelines,False
+Doc/whatsnew/2.1.rst,295,230,-,ok,1.0,749,0.5,Warning Framework Written and implemented by Guido van Rossum.,Warning Framework,Implementing PEP 649,True
+Doc/whatsnew/2.1.rst,301,229,:,weak,0.3333,282,0.5,New Build System,Using Distutils to Build Python,A Logging System,False
+Doc/whatsnew/2.1.rst,335,229,-,ok,1.0,390,0.3333,Using Distutils to Build Python,Using Distutils to Build Python,Static metadata for Distutils,False
+Doc/whatsnew/2.1.rst,341,205,:,ok,1.0,0,0.0,Weak References,Weak References,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.1.rst,416,205,-,ok,1.0,749,0.5,"Weak References Written and implemented by Fred L. Drake, Jr.",Weak References,Implementing PEP 649,True
+Doc/whatsnew/2.1.rst,422,232,:,ok,1.0,224,0.5,Function Attributes,Function Attributes,Attribute Docstrings,False
+Doc/whatsnew/2.1.rst,455,232,-,ok,1.0,224,0.5,Function Attributes Written and implemented by Barry Warsaw.,Function Attributes,Attribute Docstrings,True
+Doc/whatsnew/2.1.rst,461,235,:,ok,1.0,221,1.0,Importing Modules on Case-Insensitive Platforms,Import on Case-Insensitive Platforms,Import As,False
+Doc/whatsnew/2.1.rst,479,217,:,ok,0.75,302,0.5,Interactive Display Hook,Display Hook for Interactive Use,New Import Hooks,False
+Doc/whatsnew/2.1.rst,503,217,-,ok,1.0,302,0.5,Display Hook for Interactive Use,Display Hook for Interactive Use,New Import Hooks,False
+Doc/whatsnew/2.1.rst,509,208,:,ok,0.6667,583,0.3333,New Coercion Model,Reworking the Coercion Model,A Concurrency Memory Model for Python,False
+Doc/whatsnew/2.1.rst,533,208,-,ok,1.0,228,0.5,Reworking the Coercion Model,Reworking the Coercion Model,Reworking Python's Numeric Model,False
+Doc/whatsnew/2.1.rst,541,241,:,ok,0.6667,819,0.6667,Metadata in Python Packages,Metadata for Python Software Packages,JSON Package Metadata,False
+Doc/whatsnew/2.1.rst,568,241,",",weak,0.0,0,0.3333,as well as various bugfixes and enhancements.  It will be,Metadata for Python Software Packages,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.1.rst,574,241,-,ok,1.0,314,0.75,Metadata for Python Software Packages,Metadata for Python Software Packages,Metadata for Python Software Packages 1.1,False
+Doc/whatsnew/2.1.rst,577,243,-,ok,1.0,2,0.5,Module Repository Upload Mechanism,Module Repository Upload Mechanism,Procedure for Adding New Modules,False
+Doc/whatsnew/2.2.rst,421,234,:,ok,1.0,323,0.5,Iterators,Iterators,Copyable Iterators,False
+Doc/whatsnew/2.2.rst,535,234,-,ok,1.0,323,0.5,"Iterators Written by Ka-Ping Yee and GvR; implemented  by the Python Labs crew, mostly by",Iterators,Copyable Iterators,True
+Doc/whatsnew/2.2.rst,542,255,:,ok,1.0,289,0.5,Simple Generators,Simple Generators,Generator Expressions,False
+Doc/whatsnew/2.2.rst,662,255,-,ok,1.0,289,0.5,"Simple Generators Written by Neil Schemenauer, Tim Peters, Magnus Lie Hetland.  Implemented mostly",Simple Generators,Generator Expressions,True
+Doc/whatsnew/2.2.rst,669,237,:,ok,1.0,284,0.5,Unifying Long Integers and Integers,Unifying Long Integers and Integers,Integer for-loops,False
+Doc/whatsnew/2.2.rst,702,237,-,ok,1.0,284,0.5,Unifying Long Integers and Integers,Unifying Long Integers and Integers,Integer for-loops,False
+Doc/whatsnew/2.2.rst,709,238,:,ok,1.0,211,0.3333,Changing the Division Operator,Changing the Division Operator,Adding A New Outer Product Operator,False
+Doc/whatsnew/2.2.rst,771,238,-,ok,1.0,211,0.3333,Changing the Division Operator,Changing the Division Operator,Adding A New Outer Product Operator,False
+Doc/whatsnew/2.2.rst,792,261,",",ok,1.0,100,0.5,"""Support for 'wide' Unicode characters""; consult it for","Support for ""wide"" Unicode characters",Python Unicode Integration,False
+Doc/whatsnew/2.2.rst,833,261,-,ok,1.0,100,0.5,Support for 'wide' Unicode characters,"Support for ""wide"" Unicode characters",Python Unicode Integration,False
+Doc/whatsnew/2.2.rst,839,227,:,ok,0.6667,3104,0.25,Nested Scopes,Statically Nested Scopes,Access to Names in Outer Scopes,False
+Doc/whatsnew/2.2.rst,928,227,-,ok,1.0,3104,0.25,Statically Nested Scopes,Statically Nested Scopes,Access to Names in Outer Scopes,False
+Doc/whatsnew/2.3.rst,40,218,:,weak,0.25,4,0.3333,A Standard Set Datatype,Adding a Built-In Set Object Type,Deprecation of Standard Modules,False
+Doc/whatsnew/2.3.rst,116,218,-,ok,1.0,253,0.6667,Adding a Built-In Set Object Type,Adding a Built-In Set Object Type,Subtyping Built-in Types,False
+Doc/whatsnew/2.3.rst,125,255,:,ok,1.0,289,0.5,Simple Generators,Simple Generators,Generator Expressions,False
+Doc/whatsnew/2.3.rst,247,255,-,ok,1.0,289,0.5,"Simple Generators Written by Neil Schemenauer, Tim Peters, Magnus Lie Hetland.  Implemented mostly",Simple Generators,Generator Expressions,True
+Doc/whatsnew/2.3.rst,256,263,:,ok,0.75,3120,0.3333,Source Code Encodings,Defining Python Source Code Encodings,Using UTF-8 as the default source encoding,False
+Doc/whatsnew/2.3.rst,281,263,-,ok,1.0,3120,0.3333,Defining Python Source Code Encodings,Defining Python Source Code Encodings,Using UTF-8 as the default source encoding,False
+Doc/whatsnew/2.3.rst,288,273,:,ok,1.0,221,1.0,Importing Modules from ZIP Archives,Import Modules from Zip Archives,Import As,False
+Doc/whatsnew/2.3.rst,328,273,-,ok,1.0,221,1.0,Import Modules from Zip Archives,Import Modules from Zip Archives,Import As,False
+Doc/whatsnew/2.3.rst,330,273,",",weak,0.0,421,0.5,but uses an implementation written by,Import Modules from Zip Archives,Adding sys.implementation,False
+Doc/whatsnew/2.3.rst,337,277,:,ok,1.0,100,0.5,Unicode file name support for Windows NT,Unicode file name support for Windows NT,Python Unicode Integration,False
+Doc/whatsnew/2.3.rst,364,277,-,ok,1.0,100,0.5,Unicode file name support for Windows NT,Unicode file name support for Windows NT,Python Unicode Integration,False
+Doc/whatsnew/2.3.rst,374,278,:,ok,1.0,259,0.25,Universal Newline Support,Universal Newline Support,Omit printing newline after newline,False
+Doc/whatsnew/2.3.rst,403,278,-,ok,1.0,749,0.5,Universal Newline Support Written and implemented by Jack Jansen.,Universal Newline Support,Implementing PEP 649,True
+Doc/whatsnew/2.3.rst,411,279,:,weak,0.3333,0,0.0,enumerate(),The enumerate() built-in function,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.3.rst,435,279,-,ok,1.0,576,0.5,The enumerate() built-in function,The enumerate() built-in function,Rationalize Built-in function classes,False
+Doc/whatsnew/2.3.rst,441,282,:,ok,0.5,382,0.5,The logging Package,A Logging System,Namespace Packages,False
+Doc/whatsnew/2.3.rst,541,282,-,ok,1.0,297,0.5,A Logging System Written by Vinay Sajip and Trent Mick; implemented by Vinay Sajip.,A Logging System,Support for System Upgrades,True
+Doc/whatsnew/2.3.rst,549,285,:,ok,0.5,239,0.5,A Boolean Type,Adding a bool type,Adding a Rational Type to Python,False
+Doc/whatsnew/2.3.rst,613,285,-,ok,1.0,239,0.5,Adding a bool type Written and implemented by GvR.,Adding a bool type,Adding a Rational Type to Python,True
+Doc/whatsnew/2.3.rst,619,293,:,ok,1.0,3,0.25,Codec Error Handling Callbacks,Codec Error Handling Callbacks,Guidelines for Handling Bug Reports,False
+Doc/whatsnew/2.3.rst,645,293,-,ok,1.0,3,0.25,Codec Error Handling Callbacks,Codec Error Handling Callbacks,Guidelines for Handling Bug Reports,False
+Doc/whatsnew/2.3.rst,653,301,:,ok,1.0,241,0.6667,Package Index and Metadata for Distutils,Package Index and Metadata for Distutils,Metadata for Python Software Packages,False
+Doc/whatsnew/2.3.rst,694,301,-,ok,1.0,241,0.6667,Package Index and Metadata for Distutils,Package Index and Metadata for Distutils,Metadata for Python Software Packages,False
+Doc/whatsnew/2.3.rst,702,302,:,ok,1.0,221,1.0,New Import Hooks,New Import Hooks,Import As,False
+Doc/whatsnew/2.3.rst,760,302,-,ok,1.0,221,1.0,New Import Hooks Written by Just van Rossum and Paul Moore. Implemented by Just van Rossum.,New Import Hooks,Import As,True
+Doc/whatsnew/2.3.rst,768,305,:,weak,0.3333,488,0.3333,Comma-separated Files,CSV File API,Elimination of PYO files,False
+Doc/whatsnew/2.3.rst,805,305,-,ok,1.0,488,0.3333,CSV File API,CSV File API,Elimination of PYO files,False
+Doc/whatsnew/2.3.rst,814,307,:,weak,0.3333,0,0.3333,Pickle Enhancements,Extensions to the pickle protocol,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.3.rst,849,307,-,ok,1.0,3154,0.5,Extensions to the pickle protocol,Extensions to the pickle protocol,Pickle protocol version 4,False
+Doc/whatsnew/2.4.rst,35,218,:,ok,0.75,246,0.5,Built-In Set Objects,Adding a Built-In Set Object Type,Object Adaptation,False
+Doc/whatsnew/2.4.rst,82,218,-,ok,1.0,253,0.6667,Adding a Built-In Set Object Type,Adding a Built-In Set Object Type,Subtyping Built-in Types,False
+Doc/whatsnew/2.4.rst,89,237,:,ok,1.0,284,0.5,Unifying Long Integers and Integers,Unifying Long Integers and Integers,Integer for-loops,False
+Doc/whatsnew/2.4.rst,107,237,-,ok,1.0,284,0.5,Unifying Long Integers and Integers,Unifying Long Integers and Integers,Integer for-loops,False
+Doc/whatsnew/2.4.rst,114,289,:,ok,1.0,3142,0.5,Generator Expressions,Generator Expressions,"Add a ""while"" clause to generator expressions",False
+Doc/whatsnew/2.4.rst,164,289,-,ok,1.0,3142,0.5,Generator Expressions Proposed by Raymond Hettinger and implemented by Jiwon Seo with early efforts,Generator Expressions,"Add a ""while"" clause to generator expressions",True
+Doc/whatsnew/2.4.rst,171,292,:,ok,1.0,215,0.5,Simpler String Substitutions,Simpler String Substitutions,String Interpolation,False
+Doc/whatsnew/2.4.rst,211,292,-,ok,1.0,215,0.5,Simpler String Substitutions,Simpler String Substitutions,String Interpolation,False
+Doc/whatsnew/2.4.rst,217,318,:,ok,1.0,575,0.5,Decorators for Functions and Methods,Decorators for Functions and Methods,Unifying function/method classes,False
+Doc/whatsnew/2.4.rst,336,318,-,ok,1.0,3129,1.0,"Decorators for Functions, Methods and Classes",Decorators for Functions and Methods,Class Decorators,False
+Doc/whatsnew/2.4.rst,347,322,:,ok,1.0,201,0.5,Reverse Iteration,Reverse Iteration,Lockstep Iteration,False
+Doc/whatsnew/2.4.rst,377,322,-,ok,1.0,201,0.5,Reverse Iteration Written and implemented by Raymond Hettinger.,Reverse Iteration,Lockstep Iteration,True
+Doc/whatsnew/2.4.rst,383,324,:,ok,0.6667,2,0.5,New subprocess Module,subprocess - New process module,Procedure for Adding New Modules,False
+Doc/whatsnew/2.4.rst,465,324,-,ok,1.0,2,0.5,subprocess - New process module,subprocess - New process module,Procedure for Adding New Modules,False
+Doc/whatsnew/2.4.rst,472,327,:,ok,1.0,410,0.5,Decimal Data Type,Decimal Data Type,Use decimal.Decimal type for timestamps,False
+Doc/whatsnew/2.4.rst,684,327,-,ok,1.0,410,0.5,Decimal Data Type,Decimal Data Type,Use decimal.Decimal type for timestamps,False
+Doc/whatsnew/2.4.rst,700,328,:,ok,0.6,221,1.0,Multi-line Imports,Imports: Multi-Line and Absolute/Relative,Import As,False
+Doc/whatsnew/2.4.rst,730,328,-,ok,1.0,221,1.0,Imports: Multi-Line and Absolute/Relative,Imports: Multi-Line and Absolute/Relative,Import As,False
+Doc/whatsnew/2.4.rst,736,331,:,ok,1.0,215,0.5,Locale-Independent Float/String Conversions,Locale-Independent Float/String Conversions,String Interpolation,False
+Doc/whatsnew/2.4.rst,769,331,-,ok,1.0,215,0.5,Locale-Independent Float/String Conversions,Locale-Independent Float/String Conversions,String Interpolation,False
+Doc/whatsnew/2.5.rst,53,308,:,ok,1.0,289,0.5,Conditional Expressions,Conditional Expressions,Generator Expressions,False
+Doc/whatsnew/2.5.rst,122,308,-,ok,1.0,289,0.5,Conditional Expressions PEP written by Guido van Rossum and Raymond D. Hettinger; implemented by Thomas,Conditional Expressions,Generator Expressions,True
+Doc/whatsnew/2.5.rst,131,309,:,ok,1.0,232,0.5,Partial Function Application,Partial Function Application,Function Attributes,False
+Doc/whatsnew/2.5.rst,200,309,-,ok,1.0,232,0.5,Partial Function Application,Partial Function Application,Function Attributes,False
+Doc/whatsnew/2.5.rst,209,314,:,ok,1.0,241,1.0,Metadata for Python Software Packages v1.1,Metadata for Python Software Packages 1.1,Metadata for Python Software Packages,False
+Doc/whatsnew/2.5.rst,247,314,-,ok,1.0,241,1.0,Metadata for Python Software Packages v1.1,Metadata for Python Software Packages 1.1,Metadata for Python Software Packages,False
+Doc/whatsnew/2.5.rst,256,328,:,ok,0.6,221,1.0,Absolute and Relative Imports,Imports: Multi-Line and Absolute/Relative,Import As,False
+Doc/whatsnew/2.5.rst,330,328,-,ok,1.0,221,1.0,Imports: Multi-Line and Absolute/Relative,Imports: Multi-Line and Absolute/Relative,Import As,False
+Doc/whatsnew/2.5.rst,341,338,:,ok,1.0,2,0.5,Executing Modules as Scripts,Executing modules as scripts,Procedure for Adding New Modules,False
+Doc/whatsnew/2.5.rst,359,338,-,ok,1.0,2,0.5,Executing modules as scripts,Executing modules as scripts,Procedure for Adding New Modules,False
+Doc/whatsnew/2.5.rst,367,341,:,ok,1.0,237,0.3333,Unified try/except/finally,Unifying try-except and try-finally,Unifying Long Integers and Integers,False
+Doc/whatsnew/2.5.rst,407,341,-,ok,1.0,237,0.3333,Unifying try-except and try-finally,Unifying try-except and try-finally,Unifying Long Integers and Integers,False
+Doc/whatsnew/2.5.rst,415,342,:,weak,0.3333,42,0.5,New Generator Features,Coroutines via Enhanced Generators,Feature Requests,False
+Doc/whatsnew/2.5.rst,544,342,-,ok,1.0,220,0.6667,Coroutines via Enhanced Generators,Coroutines via Enhanced Generators,"Coroutines, Generators, Continuations",False
+Doc/whatsnew/2.5.rst,562,343,:,ok,1.0,244,0.5,The 'with' statement,"The ""with"" Statement",The ``directive`` statement,False
+Doc/whatsnew/2.5.rst,799,343,-,ok,1.0,244,0.5,"The ""with"" statement PEP written by Guido van Rossum and Nick Coghlan; implemented by Mike Bland,","The ""with"" Statement",The ``directive`` statement,True
+Doc/whatsnew/2.5.rst,812,352,:,weak,0.3333,557,0.5,Exceptions as New-Style Classes,Required Superclass for Exceptions,Data Classes,False
+Doc/whatsnew/2.5.rst,863,352,-,ok,1.0,288,0.3333,Required Superclass for Exceptions,Required Superclass for Exceptions,Generators Attributes and Exceptions,False
+Doc/whatsnew/2.5.rst,871,353,:,ok,1.0,239,0.5,Using ssize_t as the index type,Using ssize_t as the index type,Adding a Rational Type to Python,False
+Doc/whatsnew/2.5.rst,922,353,-,ok,1.0,239,0.5,Using ssize_t as the index type,Using ssize_t as the index type,Adding a Rational Type to Python,False
+Doc/whatsnew/2.5.rst,930,357,:,weak,0.0,0,0.3333,The '__index__' method,Allowing Any Object to be Used for Slicing,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.5.rst,965,357,-,ok,1.0,246,0.5,Allowing Any Object to be Used for Slicing,Allowing Any Object to be Used for Slicing,Object Adaptation,False
+Doc/whatsnew/2.5.rst,2040,249,-,ok,0.8,248,0.8,Database API Specification 2.0,Python Database API Specification v2.0,Python Database API Specification v1.0,False
+Doc/whatsnew/2.5.rst,2080,333,-,ok,1.0,3333,0.8571,Python Web Server Gateway Interface v1.0,Python Web Server Gateway Interface v1.0,Python Web Server Gateway Interface v1.0.1,False
+Doc/whatsnew/2.5.rst,2103,353,",",ok,0.6,410,0.5,which modifies the interpreter to use a Py_ssize_t type definition instead of,Using ssize_t as the index type,Use decimal.Decimal type for timestamps,True
+Doc/whatsnew/2.6.rst,245,343,:,ok,1.0,244,0.5,The 'with' statement,"The ""with"" Statement",The ``directive`` statement,False
+Doc/whatsnew/2.6.rst,487,343,-,ok,1.0,244,0.5,"The ""with"" statement PEP written by Guido van Rossum and Nick Coghlan; implemented by Mike Bland,","The ""with"" Statement",The ``directive`` statement,True
+Doc/whatsnew/2.6.rst,499,366,:,ok,1.0,221,1.0,Explicit Relative Imports From a Main Module,Main module explicit relative imports,Import As,False
+Doc/whatsnew/2.6.rst,520,370,:,ok,1.0,582,0.6667,Per-user site-packages Directory,Per user site-packages directory,Python local packages directory,False
+Doc/whatsnew/2.6.rst,551,370,-,ok,1.0,582,0.6667,Per-user site-packages Directory,Per user site-packages directory,Python local packages directory,False
+Doc/whatsnew/2.6.rst,559,371,:,ok,0.4,382,0.5,The multiprocessing Package,Addition of the multiprocessing package to the standard library,Namespace Packages,False
+Doc/whatsnew/2.6.rst,714,371,-,ok,0.6,382,0.5,Addition of the multiprocessing package,Addition of the multiprocessing package to the standard library,Namespace Packages,False
+Doc/whatsnew/2.6.rst,723,3101,:,ok,1.0,206,0.5,Advanced String Formatting,Advanced String Formatting,Python Advanced Library,False
+Doc/whatsnew/2.6.rst,857,3101,-,ok,1.0,206,0.5,Advanced String Formatting,Advanced String Formatting,Python Advanced Library,False
+Doc/whatsnew/2.6.rst,864,3105,:,ok,0.6667,232,0.5,print As a Function,Make print a function,Function Attributes,False
+Doc/whatsnew/2.6.rst,892,3105,-,ok,1.0,232,0.5,Make print a function,Make print a function,Function Attributes,False
+Doc/whatsnew/2.6.rst,899,3110,:,weak,0.3333,479,0.4,Exception-Handling Changes,Catching Exceptions in Python 3000,Change StopIteration handling inside generators,False
+Doc/whatsnew/2.6.rst,943,3110,-,ok,1.0,3000,1.0,Catching Exceptions in Python 3000,Catching Exceptions in Python 3000,Python 3000,False
+Doc/whatsnew/2.6.rst,950,3112,:,ok,0.6667,204,0.5,Byte Literals,Bytes literals in Python 3000,Range Literals,False
+Doc/whatsnew/2.6.rst,1028,3112,-,ok,1.0,3000,1.0,Bytes literals in Python 3000,Bytes literals in Python 3000,Python 3000,False
+Doc/whatsnew/2.6.rst,1035,3116,:,ok,1.0,206,0.5,New I/O Library,New I/O,Python Advanced Library,False
+Doc/whatsnew/2.6.rst,1108,3116,-,ok,1.0,3145,0.4,"New I/O PEP written by Daniel Stutzbach, Mike Verdone, and Guido van Rossum.",New I/O,Asynchronous I/O For subprocess.Popen,True
+Doc/whatsnew/2.6.rst,1117,3118,:,ok,1.0,688,0.5,Revised Buffer Protocol,Revising the buffer protocol,Making the buffer protocol accessible in Python,False
+Doc/whatsnew/2.6.rst,1159,3118,-,ok,1.0,688,0.5,Revising the buffer protocol,Revising the buffer protocol,Making the buffer protocol accessible in Python,False
+Doc/whatsnew/2.6.rst,1168,3119,:,ok,0.75,557,0.5,Abstract Base Classes,Introducing Abstract Base Classes,Data Classes,False
+Doc/whatsnew/2.6.rst,1306,3119,-,ok,1.0,557,0.5,Introducing Abstract Base Classes,Introducing Abstract Base Classes,Data Classes,False
+Doc/whatsnew/2.6.rst,1315,3127,:,ok,1.0,204,0.5,Integer Literal Support and Syntax,Integer Literal Support and Syntax,Range Literals,False
+Doc/whatsnew/2.6.rst,1359,3127,-,ok,1.0,204,0.5,Integer Literal Support and Syntax,Integer Literal Support and Syntax,Range Literals,False
+Doc/whatsnew/2.6.rst,1367,3129,:,ok,1.0,557,0.5,Class Decorators,Class Decorators,Data Classes,False
+Doc/whatsnew/2.6.rst,1387,3129,-,ok,1.0,557,0.5,Class Decorators PEP written by Collin Winter.,Class Decorators,Data Classes,True
+Doc/whatsnew/2.6.rst,1394,3141,:,ok,1.0,239,0.5,A Type Hierarchy for Numbers,A Type Hierarchy for Numbers,Adding a Rational Type to Python,False
+Doc/whatsnew/2.6.rst,1437,3141,-,ok,1.0,239,0.5,A Type Hierarchy for Numbers,A Type Hierarchy for Numbers,Adding a Rational Type to Python,False
+Doc/whatsnew/2.7.rst,213,372,:,ok,1.0,455,0.5,Adding an Ordered Dictionary to collections,Adding an ordered dictionary to collections,Adding a key-transforming dictionary to collections,False
+Doc/whatsnew/2.7.rst,306,372,-,ok,1.0,455,0.5,Adding an ordered dictionary to collections,Adding an ordered dictionary to collections,Adding a key-transforming dictionary to collections,False
+Doc/whatsnew/2.7.rst,312,378,:,ok,1.0,682,0.5,Format Specifier for Thousands Separator,Format Specifier for Thousands Separator,Format Specifier for Signed Zero,False
+Doc/whatsnew/2.7.rst,345,378,-,ok,1.0,682,0.5,Format Specifier for Thousands Separator,Format Specifier for Thousands Separator,Format Specifier for Signed Zero,False
+Doc/whatsnew/2.7.rst,348,389,:,ok,1.0,2,0.5,The argparse Module for Parsing Command Lines,argparse - New Command Line Parsing Module,Procedure for Adding New Modules,False
+Doc/whatsnew/2.7.rst,444,389,-,ok,1.0,2,0.5,argparse - New Command Line Parsing Module,argparse - New Command Line Parsing Module,Procedure for Adding New Modules,False
+Doc/whatsnew/2.7.rst,447,391,:,ok,1.0,282,0.5,Dictionary-Based Configuration For Logging,Dictionary-Based Configuration For Logging,A Logging System,False
+Doc/whatsnew/2.7.rst,544,391,-,ok,1.0,282,0.5,Dictionary-Based Configuration For Logging,Dictionary-Based Configuration For Logging,A Logging System,False
+Doc/whatsnew/2.7.rst,547,3106,:,weak,0.0,265,0.3333,Dictionary Views,"Revamping dict.keys(), .values() and .items()",Sorting Dictionaries by Value,False
+Doc/whatsnew/2.7.rst,605,3106,-,ok,1.0,274,0.5,"Revamping dict.keys(), .values() and .items()","Revamping dict.keys(), .values() and .items()",Dict Comprehensions,False
+Doc/whatsnew/2.7.rst,610,3137,:,weak,0.0,246,0.5,The memoryview Object,Immutable Bytes and Mutable Buffer,Object Adaptation,False
+Doc/whatsnew/2.7.rst,664,3137,-,ok,1.0,358,0.5,Immutable Bytes and Mutable Buffer,Immutable Bytes and Mutable Buffer,"The ""bytes"" Object",False
+Doc/whatsnew/2.7.rst,2590,434,:,ok,1.0,0,0.3333,IDLE Enhancement Exception for All Branches,IDLE Enhancement Exception for All Branches,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.7.rst,2602,466,:,ok,0.8333,373,0.5,Network Security Enhancements for Python 2.7,Network Security Enhancements for Python 2.7.x,Python 2.7 Release Schedule,False
+Doc/whatsnew/2.7.rst,2704,453,--,ok,1.0,439,0.4,Explicit bootstrapping of pip in Python installations,Explicit bootstrapping of pip in Python installations,Inclusion of implicit pip bootstrap in Python installation,False
+Doc/whatsnew/2.7.rst,2708,476,:,ok,1.0,330,0.5,Enabling certificate verification by default for stdlib http clients,Enabling certificate verification by default for stdlib http clients,Python Bytecode Verification,False
+Doc/whatsnew/2.7.rst,2735,493,:,ok,1.0,373,0.5,HTTPS verification migration tools for Python 2.7,HTTPS verification migration tools for Python 2.7,Python 2.7 Release Schedule,False
+Doc/whatsnew/3.0.rst,209,237,:,weak,0.3333,276,0.3333,"Essentially, !long renamed to int.",Unifying Long Integers and Integers,Simple Iterator for ints,False
+Doc/whatsnew/3.0.rst,213,238,:,weak,0.0,226,0.5,An expression like 1/2 returns a float.  Use,Changing the Division Operator,Python 2.1 Release Schedule,False
+Doc/whatsnew/3.0.rst,330,3138,:,weak,0.3333,215,0.5,The repr of a string no longer escapes,String representation in Python 3000,String Interpolation,False
+Doc/whatsnew/3.0.rst,334,3120,:,ok,0.8333,540,0.6667,The default source encoding is now UTF-8.,Using UTF-8 as the default source encoding,Add a new UTF-8 Mode,False
+Doc/whatsnew/3.0.rst,336,3131,:,ok,0.75,349,0.25,Non-ASCII letters are now allowed in identifiers.,Supporting Non-ASCII Identifiers,Allow str() to return unicode strings,False
+Doc/whatsnew/3.0.rst,356,3107,:,ok,1.0,593,0.5,Function argument and return value annotations.  This,Function Annotations,Flexible function and variable annotations,False
+Doc/whatsnew/3.0.rst,363,3102,:,ok,1.0,472,0.6667,Keyword-only arguments.  Named parameters occurring,Keyword-Only Arguments,Support for indexing with keyword arguments,False
+Doc/whatsnew/3.0.rst,374,3104,:,weak,0.0,343,1.0,nonlocal statement.  Using nonlocal x,Access to Names in Outer Scopes,"The ""with"" Statement",False
+Doc/whatsnew/3.0.rst,378,3132,:,ok,1.0,798,0.5,Extended Iterable Unpacking.  You can now write things,Extended Iterable Unpacking,Unpacking in Comprehensions,False
+Doc/whatsnew/3.0.rst,408,3134,:,weak,0.0,343,1.0,new raise statement syntax:,Exception Chaining and Embedded Tracebacks,"The ""with"" Statement",False
+Doc/whatsnew/3.0.rst,420,3115,:,ok,0.5,245,0.5,New Metaclass Syntax.  Instead of::,Metaclasses in Python 3000,Python Interface Syntax,False
+Doc/whatsnew/3.0.rst,452,3113,:,ok,0.75,798,0.5,Tuple parameter unpacking removed.  You can no longer,Removal of Tuple Parameter Unpacking,Unpacking in Comprehensions,False
+Doc/whatsnew/3.0.rst,573,8,",",weak,0.0,202,0.5,or for various other reasons.  Here's the list:,Style Guide for Python Code,List Comprehensions,False
+Doc/whatsnew/3.0.rst,674,3101,:,ok,0.6667,215,0.5,A New Approach To String Formatting,Advanced String Formatting,String Interpolation,False
+Doc/whatsnew/3.0.rst,690,352,:,weak,0.3333,434,0.4,All exceptions must be derived (directly or indirectly),Required Superclass for Exceptions,IDLE Enhancement Exception for All Branches,False
+Doc/whatsnew/3.0.rst,710,3109,:,ok,0.6667,288,0.3333,Raising exceptions.  You must now use :samp:`raise,Raising Exceptions in Python 3000,Generators Attributes and Exceptions,False
+Doc/whatsnew/3.0.rst,716,3110,:,ok,0.6667,463,0.6667,Catching exceptions.  You must now use,Catching Exceptions in Python 3000,Exception-catching expressions,False
+Doc/whatsnew/3.0.rst,722,3134,:,ok,0.5,317,0.5,Exception chaining.  There are two cases: implicit,Exception Chaining and Embedded Tracebacks,Eliminate Implicit Exception Instantiation,False
+Doc/whatsnew/3.0.rst,743,3134,:,ok,0.5,830,0.6667,Exception objects now store their traceback as the,Exception Chaining and Embedded Tracebacks,Add timestamps to exceptions and tracebacks,False
+Doc/whatsnew/3.0.rst,774,3114,:,ok,0.6667,4,0.3333,the standard next method has been renamed to,Renaming iterator.next() to iterator.__next__(),Deprecation of Standard Modules,False
+Doc/whatsnew/3.0.rst,799,3135,:,ok,1.0,367,1.0,New super.  You can now invoke super,New Super,New Super,False
+Doc/whatsnew/3.0.rst,805,3111,:,weak,0.25,3114,0.3333,!raw_input was renamed to input.  That,Simple input built-in in Python 3000,Renaming iterator.next() to iterator.__next__(),False
+Doc/whatsnew/3.0.rst,862,3118,:,weak,0.3333,298,0.3333,New Buffer API.,Revising the buffer protocol,The Locked Buffer Interface,False
+Doc/whatsnew/3.0.rst,864,3121,:,ok,1.0,630,0.6667,Extension Module Initialization & Finalization.,Extension Module Initialization and Finalization,Isolating Extension Modules,False
+Doc/whatsnew/3.0.rst,866,3123,:,ok,1.0,4,0.3333,Making PyObject_HEAD conform to standard C.,Making PyObject_HEAD conform to standard C,Deprecation of Standard Modules,False
+Doc/whatsnew/3.1.rst,53,372,:,ok,0.6667,265,0.3333,Ordered Dictionaries,Adding an ordered dictionary to collections,Sorting Dictionaries by Value,False
+Doc/whatsnew/3.1.rst,79,372,-,ok,0.6667,421,0.5,Ordered Dictionaries PEP written by Armin Ronacher and Raymond Hettinger.  Implementation,Adding an ordered dictionary to collections,Adding sys.implementation,True
+Doc/whatsnew/3.1.rst,106,378,:,ok,1.0,682,0.5,Format Specifier for Thousands Separator,Format Specifier for Thousands Separator,Format Specifier for Signed Zero,False
+Doc/whatsnew/3.1.rst,133,378,-,ok,1.0,682,0.5,Format Specifier for Thousands Separator,Format Specifier for Thousands Separator,Format Specifier for Signed Zero,False
+Doc/whatsnew/3.10.rst,62,634,",",ok,1.0,622,1.0,Structural Pattern Matching: Specification,Structural Pattern Matching: Specification,Structural Pattern Matching,False
+Doc/whatsnew/3.10.rst,63,635,",",ok,1.0,622,1.0,Structural Pattern Matching: Motivation and Rationale,Structural Pattern Matching: Motivation and Rationale,Structural Pattern Matching,False
+Doc/whatsnew/3.10.rst,64,636,",",ok,1.0,622,1.0,Structural Pattern Matching: Tutorial,Structural Pattern Matching: Tutorial,Structural Pattern Matching,False
+Doc/whatsnew/3.10.rst,69,618,",",ok,1.0,597,0.5,Add Optional Length-Checking To zip.,Add Optional Length-Checking To zip,Add optional EncodingWarning,False
+Doc/whatsnew/3.10.rst,73,626,",",ok,1.0,396,0.3333,Precise line numbers for debugging and other tools.,Precise line numbers for debugging and other tools.,Module Version Numbers,False
+Doc/whatsnew/3.10.rst,77,604,",",ok,1.0,645,0.8,Allow writing union types as X | Y,Allow writing union types as ``X | Y``,Allow writing optional types as ``x?``,False
+Doc/whatsnew/3.10.rst,78,612,",",ok,1.0,567,0.5,Parameter Specification Variables,Parameter Specification Variables,Context Variables,False
+Doc/whatsnew/3.10.rst,79,613,",",ok,1.0,846,0.6667,Explicit Type Aliases,Explicit Type Aliases,Docstrings for Type Aliases,False
+Doc/whatsnew/3.10.rst,80,647,",",ok,1.0,346,0.6667,User-Defined Type Guards,User-Defined Type Guards,"User Defined (""``with``"") Statements",False
+Doc/whatsnew/3.10.rst,84,644,",",ok,1.0,352,0.3333,Require OpenSSL 1.1.1 or newer,Require OpenSSL 1.1.1 or newer,Required Superclass for Exceptions,False
+Doc/whatsnew/3.10.rst,85,632,",",ok,1.0,2,0.5,Deprecate distutils module.,Deprecate distutils module,Procedure for Adding New Modules,False
+Doc/whatsnew/3.10.rst,86,623,",",weak,0.3333,632,0.3333,Deprecate and prepare for the removal of the wstr member in PyUnicodeObject.,Remove wstr from Unicode,Deprecate distutils module,False
+Doc/whatsnew/3.10.rst,87,624,",",ok,1.0,623,0.6667,Remove Py_UNICODE encoder APIs,Remove Py_UNICODE encoder APIs,Remove wstr from Unicode,False
+Doc/whatsnew/3.10.rst,88,597,",",ok,1.0,618,0.25,Add optional EncodingWarning,Add optional EncodingWarning,Add Optional Length-Checking To zip,False
+Doc/whatsnew/3.10.rst,396,626,:,ok,1.0,396,0.3333,Precise line numbers for debugging and other tools,Precise line numbers for debugging and other tools.,Module Version Numbers,False
+Doc/whatsnew/3.10.rst,411,634,:,ok,0.75,622,1.0,Structural Pattern Matching,Structural Pattern Matching: Specification,Structural Pattern Matching,False
+Doc/whatsnew/3.10.rst,721,604,:,weak,0.3333,584,0.6667,New Type Union Operator,Allow writing union types as ``X | Y``,Add Union Operators To dict,False
+Doc/whatsnew/3.10.rst,753,612,:,ok,1.0,567,0.5,Parameter Specification Variables,Parameter Specification Variables,Context Variables,False
+Doc/whatsnew/3.10.rst,778,613,:,weak,0.0,0,0.0,TypeAlias,Explicit Type Aliases,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/3.10.rst,799,647,:,ok,1.0,346,0.6667,User-Defined Type Guards,User-Defined Type Guards,"User Defined (""``with``"") Statements",False
+Doc/whatsnew/3.10.rst,822,618,:,ok,0.5,232,0.5,"The zip function now has an optional strict flag, used",Add Optional Length-Checking To zip,Function Attributes,False
+Doc/whatsnew/3.10.rst,1537,451,:,weak,0.0,0,0.0,"~zipimport.zipimporter.find_spec,",A ModuleSpec Type for the Import System,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/3.10.rst,1991,644,:,ok,1.0,200,0.5,Python now requires OpenSSL 1.1.1 or newer. OpenSSL 1.0.2 is no,Require OpenSSL 1.1.1 or newer,Python 2.0 Release Schedule,False
+Doc/whatsnew/3.10.rst,2043,652,:,ok,1.0,384,0.6667,Maintaining the Stable ABI,Maintaining the Stable ABI,Defining a Stable ABI,False
+Doc/whatsnew/3.11.rst,76,680,:,ok,1.0,784,0.6667,tomllib — Support for parsing TOML in the Standard Library,tomllib: Support for Parsing TOML in the Standard Library,Adding Zstandard to the standard library,True
+Doc/whatsnew/3.11.rst,96,594,:,ok,0.4,450,0.75,:ref:`Many legacy standard library modules have been deprecated,Removing dead batteries from the standard library,Adding A Statistics Module To The Standard Library,True
+Doc/whatsnew/3.11.rst,99,624,:,ok,1.0,623,0.6667,Py_UNICODE encoder APIs have been removed,Remove Py_UNICODE encoder APIs,Remove wstr from Unicode,True
+Doc/whatsnew/3.11.rst,101,670,:,ok,0.6,232,0.5,Macros converted to static inline functions,Convert macros to functions in the Python C API,Function Attributes,True
+Doc/whatsnew/3.11.rst,112,657,:,ok,0.8333,830,0.3333,Fine-grained error locations in tracebacks,Include Fine Grained Error Locations in Tracebacks,Add timestamps to exceptions and tracebacks,False
+Doc/whatsnew/3.11.rst,182,654,:,ok,1.0,288,0.3333,Exception Groups and except*,Exception Groups and except*,Generators Attributes and Exceptions,False
+Doc/whatsnew/3.11.rst,200,678,:,ok,1.0,288,0.3333,Exceptions can be enriched with notes,Enriching Exceptions with Notes,Generators Attributes and Exceptions,False
+Doc/whatsnew/3.11.rst,252,646,:,ok,1.0,443,0.25,Variadic generics,Variadic Generics,Single-dispatch generic functions,False
+Doc/whatsnew/3.11.rst,277,655,:,ok,0.7143,705,0.5,Marking individual TypedDict items as required or not-required,Marking individual TypedDict items as required or potentially-missing,TypedDict: Read-only items,False
+Doc/whatsnew/3.11.rst,313,673,:,ok,1.0,239,0.5,Self type,Self Type,Adding a Rational Type to Python,False
+Doc/whatsnew/3.11.rst,351,675,:,ok,1.0,586,1.0,Arbitrary literal string type,Arbitrary Literal String Type,Literal Types,False
+Doc/whatsnew/3.11.rst,388,681,:,ok,1.0,557,1.0,Data class transforms,Data Class Transforms,Data Classes,False
+Doc/whatsnew/3.11.rst,1432,659,:,ok,1.0,210,0.3333,Specializing Adaptive Interpreter,Specializing Adaptive Interpreter,Decoupling the Interpreter Loop,False
+Doc/whatsnew/3.11.rst,1771,617,",",ok,0.6667,3133,0.5,"introducing the new PEG parser, for details.",New PEG parser for CPython,Introducing Roles,False
+Doc/whatsnew/3.12.rst,54,693,--,ok,1.0,398,1.0,Python 3.12 Release Schedule,Python 3.12 Release Schedule,Python 3.3 Release Schedule,False
+Doc/whatsnew/3.12.rst,92,695,",",ok,1.0,343,1.0,type parameter syntax and the type statement,Type Parameter Syntax,"The ""with"" Statement",False
+Doc/whatsnew/3.12.rst,96,701,",",ok,0.5,215,0.5,f-strings in the grammar,Syntactic formalization of f-strings,String Interpolation,False
+Doc/whatsnew/3.12.rst,100,684,",",ok,1.0,210,0.3333,a unique per-interpreter :term:`GIL,A Per-Interpreter GIL,Decoupling the Interpreter Loop,False
+Doc/whatsnew/3.12.rst,102,669,",",ok,0.75,0,0.0,low impact monitoring,Low Impact Monitoring for CPython,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/3.12.rst,108,688,",",ok,0.5,3118,0.6667,using the :ref:`buffer protocol,Making the buffer protocol accessible in Python,Revising the buffer protocol,False
+Doc/whatsnew/3.12.rst,123,701,",",weak,0.0,2,0.5,producing tokens via the tokenize module is up to 64% faster.,Syntactic formalization of f-strings,Procedure for Adding New Modules,True
+Doc/whatsnew/3.12.rst,136,697,",",miscite,0.3333,689,1.0,unstable C API tier,Limited C API for Extending Opaque Types,Unstable C API tier,False
+Doc/whatsnew/3.12.rst,137,683,",",ok,0.4,246,0.5,immortal objects,"Immortal Objects, Using a Fixed Refcount",Object Adaptation,False
+Doc/whatsnew/3.12.rst,141,709,",",ok,1.0,202,0.5,comprehension inlining,Inlined comprehensions,List Comprehensions,False
+Doc/whatsnew/3.12.rst,147,692,",",ok,0.5,728,0.5,using ~typing.TypedDict to,Using TypedDict for more precise \*\*kwargs typing,TypedDict with Typed Extra Items,False
+Doc/whatsnew/3.12.rst,149,698,",",ok,0.75,3129,0.5,typing.override decorator,Override Decorator for Static Typing,Class Decorators,False
+Doc/whatsnew/3.12.rst,153,623,:,ok,1.0,741,0.6667,"Remove wstr from Unicode objects in Python's C API,",Remove wstr from Unicode,Python Configuration C API,False
+Doc/whatsnew/3.12.rst,156,632,:,weak,0.3333,301,0.5,Remove the !distutils package.,Deprecate distutils module,Package Index and Metadata for Distutils,False
+Doc/whatsnew/3.12.rst,180,695,:,ok,1.0,677,0.6667,Type Parameter Syntax,Type Parameter Syntax,Callable Type Syntax,False
+Doc/whatsnew/3.12.rst,244,701,:,ok,1.0,215,0.5,Syntactic formalization of f-strings,Syntactic formalization of f-strings,String Interpolation,False
+Doc/whatsnew/3.12.rst,336,684,:,ok,1.0,210,0.3333,A Per-Interpreter GIL,A Per-Interpreter GIL,Decoupling the Interpreter Loop,False
+Doc/whatsnew/3.12.rst,368,669,:,ok,1.0,11,0.5,Low impact monitoring for CPython,Low Impact Monitoring for CPython,CPython platform support,False
+Doc/whatsnew/3.12.rst,383,688,:,ok,1.0,3118,0.6667,Making the buffer protocol accessible in Python,Making the buffer protocol accessible in Python,Revising the buffer protocol,False
+Doc/whatsnew/3.12.rst,398,709,:,ok,1.0,202,0.5,Comprehension inlining,Inlined comprehensions,List Comprehensions,False
+Doc/whatsnew/3.12.rst,487,692,:,ok,1.0,728,0.5,Using TypedDict for more precise **kwargs typing,Using TypedDict for more precise \*\*kwargs typing,TypedDict with Typed Extra Items,False
+Doc/whatsnew/3.12.rst,511,698,:,ok,1.0,3129,0.5,Override Decorator for Static Typing,Override Decorator for Static Typing,Class Decorators,False
+Doc/whatsnew/3.12.rst,1351,626,",",weak,0.0,693,0.5,but it only got a proper DeprecationWarning in 3.12.,Precise line numbers for debugging and other tools.,Python 3.12 Release Schedule,True
+Doc/whatsnew/3.12.rst,1383,594,",",weak,0.0,494,0.5,having been deprecated in Python 3.6.,Removing dead batteries from the standard library,Python 3.6 Release Schedule,True
+Doc/whatsnew/3.12.rst,1559,594,",",weak,0.0,429,0.5,having been deprecated in Python 3.4.7 and 3.5.4.,Removing dead batteries from the standard library,Python 3.4 Release Schedule,True
+Doc/whatsnew/3.12.rst,1866,697,:,miscite,0.3333,689,1.0,"Introduce the Unstable C API tier,",Limited C API for Extending Opaque Types,Unstable C API tier,False
+Doc/whatsnew/3.12.rst,1888,697,:,ok,0.5,239,0.5,Add an API for extending types whose instance memory layout is,Limited C API for Extending Opaque Types,Adding a Rational Type to Python,False
+Doc/whatsnew/3.12.rst,1994,683,:,ok,0.4,246,0.5,"Introduce *Immortal Objects*, which allows objects","Immortal Objects, Using a Fixed Refcount",Object Adaptation,False
+Doc/whatsnew/3.12.rst,2012,684,:,weak,0.0,232,0.5,"Add the new Py_NewInterpreterFromConfig function and PyInterpreterConfig, which may be used",A Per-Interpreter GIL,Function Attributes,True
+Doc/whatsnew/3.12.rst,2166,699,",",weak,0.3333,606,0.5,the ma_version_tag field in PyDictObject,Remove private dict version field added in PEP 509,Python Compatibility Version,False
+Doc/whatsnew/3.13.rst,54,719,--,ok,1.0,398,1.0,Python 3.13 Release Schedule,Python 3.13 Release Schedule,Python 3.3 Release Schedule,False
+Doc/whatsnew/3.13.rst,103,667,:,weak,0.0,416,0.3333,The locals builtin now has,Consistent views of namespaces,Add a frozendict builtin type,False
+Doc/whatsnew/3.13.rst,108,703,:,weak,0.1667,719,0.5,CPython 3.13 has experimental support for running with the,Making the Global Interpreter Lock Optional in CPython,Python 3.13 Release Schedule,False
+Doc/whatsnew/3.13.rst,111,744,:,ok,0.5,339,0.3333,A basic JIT compiler was added.,JIT Compilation,Design of the CPython Compiler,False
+Doc/whatsnew/3.13.rst,162,696,:,ok,0.6667,695,0.6667,"Type parameters (typing.TypeVar, typing.ParamSpec,",Type Defaults for Type Parameters,Type Parameter Syntax,False
+Doc/whatsnew/3.13.rst,164,702,:,weak,0.0,230,0.5,The new warnings.deprecated decorator adds support,Marking deprecations using the type system,Warning Framework,False
+Doc/whatsnew/3.13.rst,166,705,:,weak,0.25,728,0.5,typing.ReadOnly can be used to mark an item of a,TypedDict: Read-only items,TypedDict with Typed Extra Items,False
+Doc/whatsnew/3.13.rst,168,742,:,weak,0.3333,692,0.3333,typing.TypeIs provides more intuitive,Narrowing types with TypeIs,Using TypedDict for more precise \*\*kwargs typing,False
+Doc/whatsnew/3.13.rst,173,730,:,ok,1.0,738,0.6667,Apple's iOS is now an :ref:`officially supported platform,Adding iOS as a supported platform,Adding Android as a supported platform,False
+Doc/whatsnew/3.13.rst,175,738,:,ok,1.0,730,0.6667,Android is now an :ref:`officially supported platform,Adding Android as a supported platform,Adding iOS as a supported platform,False
+Doc/whatsnew/3.13.rst,182,594,:,ok,0.4,0,0.0,"The remaining 19 ""dead batteries""",Removing dead batteries from the standard library,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/3.13.rst,1391,705,:,weak,0.0,591,0.3333,"Add ~typing.ReadOnly, a special typing construct",TypedDict: Read-only items,Adding a final qualifier to typing,False
+Doc/whatsnew/3.13.rst,1394,742,:,weak,0.3333,591,0.3333,"Add ~typing.TypeIs, a typing construct",Narrowing types with TypeIs,Adding a final qualifier to typing,False
+Doc/whatsnew/3.13.rst,1439,702,:,weak,0.0,230,0.5,The new warnings.deprecated decorator provides a way to,Marking deprecations using the type system,Warning Framework,False
+Doc/whatsnew/3.13.rst,1508,594,:,ok,1.0,784,0.6667,"Remove ""dead batteries"" from the standard library",Removing dead batteries from the standard library,Adding Zstandard to the standard library,False
+Doc/whatsnew/3.14.rst,54,745,--,ok,1.0,398,1.0,Python 3.14 release schedule,Python 3.14 Release Schedule,Python 3.3 Release Schedule,False
+Doc/whatsnew/3.14.rst,97,749,:,weak,0.0,563,0.6667,:ref:`Deferred evaluation of annotations,Implementing PEP 649,Postponed Evaluation of Annotations,False
+Doc/whatsnew/3.14.rst,99,734,:,ok,0.6667,554,0.6667,:ref:`Multiple interpreters in the standard library,Multiple Interpreters in the Stdlib,Multiple Interpreters in the Stdlib,False
+Doc/whatsnew/3.14.rst,101,750,:,ok,1.0,215,0.5,Template strings,Template Strings,String Interpolation,False
+Doc/whatsnew/3.14.rst,102,758,:,ok,0.8,289,0.5,:ref:`Allow except and except* expressions without brackets,Allow ``except`` and ``except*`` expressions without parentheses,Generator Expressions,False
+Doc/whatsnew/3.14.rst,104,765,:,weak,0.25,319,0.3333,:ref:`Control flow in finally blocks,Disallow return/break/continue that exit a finally block,Python Synchronize/Asynchronize Block,False
+Doc/whatsnew/3.14.rst,106,768,:,ok,1.0,11,0.5,:ref:`Safe external debugger interface for CPython,Safe external debugger interface for CPython,CPython platform support,False
+Doc/whatsnew/3.14.rst,115,784,:,ok,1.0,3108,0.6667,:ref:`Zstandard support in the standard library,Adding Zstandard to the standard library,Standard Library Reorganization,False
+Doc/whatsnew/3.14.rst,125,741,:,ok,1.0,782,0.6667,Python configuration C API,Python Configuration C API,Add PyBytesWriter C API,False
+Doc/whatsnew/3.14.rst,129,776,:,ok,1.0,730,0.6667,Emscripten is now an :ref:`officially supported platform,Emscripten Support,Adding iOS as a supported platform,False
+Doc/whatsnew/3.14.rst,134,779,:,ok,0.6,803,0.3333,:ref:`Free-threaded Python is officially supported,Criteria for supported status for free-threaded Python,"""abi3t"": Stable ABI for Free-Threaded Builds",False
+Doc/whatsnew/3.14.rst,136,761,:,ok,0.4,608,0.5,:ref:`PGP signatures have been discontinued for official releases,Deprecating PGP signatures for CPython artifacts,Coordinated Python release,False
+Doc/whatsnew/3.14.rst,148,749,:,weak,0.0,563,0.6667,Deferred evaluation of annotations,Implementing PEP 649,Postponed Evaluation of Annotations,False
+Doc/whatsnew/3.14.rst,202,734,:,ok,0.6667,554,0.6667,Multiple interpreters in the standard library,Multiple Interpreters in the Stdlib,Multiple Interpreters in the Stdlib,False
+Doc/whatsnew/3.14.rst,301,750,:,ok,1.0,498,0.6667,Template string literals,Template Strings,Literal String Interpolation,False
+Doc/whatsnew/3.14.rst,385,768,:,ok,0.8,245,0.5,Safe external debugger interface,Safe external debugger interface for CPython,Python Interface Syntax,False
+Doc/whatsnew/3.14.rst,648,784,:,ok,1.0,3108,0.6667,Zstandard support in the standard library,Adding Zstandard to the standard library,Standard Library Reorganization,False
+Doc/whatsnew/3.14.rst,912,758,:,ok,0.8,289,0.5,Allow except and except* expressions without brackets,Allow ``except`` and ``except*`` expressions without parentheses,Generator Expressions,False
+Doc/whatsnew/3.14.rst,932,765,:,weak,0.25,319,0.3333,Control flow in finally blocks,Disallow return/break/continue that exit a finally block,Python Synchronize/Asynchronize Block,False
+Doc/whatsnew/3.14.rst,2773,750,:,ok,1.0,498,0.6667,Template strings <whatsnew314-template-string-literals>`).,Template Strings,Literal String Interpolation,False
+Doc/whatsnew/3.14.rst,2891,741,:,ok,1.0,782,0.6667,Python configuration C API <whatsnew314-capi-config>`):,Python Configuration C API,Add PyBytesWriter C API,False
+Doc/whatsnew/3.14.rst,2901,741,:,ok,1.0,782,0.6667,Python configuration C API <whatsnew314-capi-config>`):,Python Configuration C API,Add PyBytesWriter C API,False
+Doc/whatsnew/3.14.rst,3133,776,:,ok,1.0,730,0.6667,Emscripten is now an officially supported platform at,Emscripten Support,Adding iOS as a supported platform,False
+Doc/whatsnew/3.14.rst,3201,739,--,ok,1.0,427,0.3333,build-details.json 1.0 -- a static description file,``build-details.json`` 1.0 — a static description file for Python build details,The Wheel Binary Package Format 1.0,False
+Doc/whatsnew/3.15.rst,54,790,--,ok,1.0,398,1.0,Python 3.15 release schedule,Python 3.15 Release Schedule,Python 3.3 Release Schedule,False
+Doc/whatsnew/3.15.rst,101,661,:,ok,0.5,253,0.6667,:ref:`Add sentinel built-in type,Sentinel Values,Subtyping Built-in Types,False
+Doc/whatsnew/3.15.rst,103,686,:,ok,0.6,3120,0.6667,:ref:`Python now uses UTF-8 as the default encoding,Make UTF-8 mode default,Using UTF-8 as the default source encoding,False
+Doc/whatsnew/3.15.rst,105,798,:,ok,1.0,202,0.5,:ref:`Unpacking in comprehensions,Unpacking in Comprehensions,List Comprehensions,False
+Doc/whatsnew/3.15.rst,107,810,:,ok,1.0,690,1.0,:ref:`Explicit lazy imports for faster startup times,Explicit lazy imports,Lazy Imports,False
+Doc/whatsnew/3.15.rst,109,814,:,ok,1.0,253,0.6667,:ref:`Add frozendict built-in type,Add frozendict built-in type,Subtyping Built-in Types,False
+Doc/whatsnew/3.15.rst,111,829,:,ok,1.0,382,0.5,Package startup configuration files,Package Startup Configuration Files,Namespace Packages,False
+Doc/whatsnew/3.15.rst,117,799,:,ok,0.8,382,0.5,:ref:`A dedicated profiling package for organizing Python,A dedicated ``profiling`` package for organizing Python profiling tools,Namespace Packages,False
+Doc/whatsnew/3.15.rst,119,799,:,weak,0.0,9,0.3333,:ref:`Tachyon: High-frequency statistical sampling profiler,A dedicated ``profiling`` package for organizing Python profiling tools,Sample Plaintext PEP Template,False
+Doc/whatsnew/3.15.rst,125,728,:,ok,1.0,705,0.5,TypedDict with typed extra items,TypedDict with Typed Extra Items,TypedDict: Read-only items,False
+Doc/whatsnew/3.15.rst,126,747,:,ok,1.0,746,0.5,:ref:`Annotating type forms with TypeForm,Annotating Type Forms,Type checking Annotated metadata,False
+Doc/whatsnew/3.15.rst,128,800,:,ok,1.0,451,0.5,Disjoint bases in the type system,Disjoint bases in the type system,A ModuleSpec Type for the Import System,False
+Doc/whatsnew/3.15.rst,132,782,:,ok,1.0,358,1.0,:ref:`A new PyBytesWriter C API to create a Python bytes object,Add PyBytesWriter C API,"The ""bytes"" Object",False
+Doc/whatsnew/3.15.rst,134,788,:,ok,0.6,741,0.6667,Protection against finalization in the C API,Protecting the C API from Interpreter Finalization,Python Configuration C API,False
+Doc/whatsnew/3.15.rst,141,831,:,ok,0.4286,441,0.3333,:ref:`Frame pointers are enabled by default for improved,Frame Pointers Everywhere: Enabling System-Level Observability for Python,Improving Python ZIP Application Support,False
+Doc/whatsnew/3.15.rst,156,810,:,ok,1.0,690,1.0,Explicit lazy imports,Explicit lazy imports,Lazy Imports,False
+Doc/whatsnew/3.15.rst,264,814,:,ok,1.0,253,0.6667,Add frozendict built-in type,Add frozendict built-in type,Subtyping Built-in Types,False
+Doc/whatsnew/3.15.rst,310,661,:,ok,0.5,253,0.6667,Add sentinel built-in type,Sentinel Values,Subtyping Built-in Types,False
+Doc/whatsnew/3.15.rst,326,799,:,ok,0.6,382,0.5,A dedicated profiling package,A dedicated ``profiling`` package for organizing Python profiling tools,Namespace Packages,False
+Doc/whatsnew/3.15.rst,438,831,:,ok,0.4286,696,0.3333,Frame pointers enabled by default,Frame Pointers Everywhere: Enabling System-Level Observability for Python,Type Defaults for Type Parameters,False
+Doc/whatsnew/3.15.rst,471,798,:,ok,1.0,202,0.5,Unpacking in comprehensions,Unpacking in Comprehensions,List Comprehensions,False
+Doc/whatsnew/3.15.rst,512,829,:,ok,1.0,382,0.5,Package startup configuration files,Package Startup Configuration Files,Namespace Packages,False
+Doc/whatsnew/3.15.rst,548,803,:,ok,0.8333,384,0.6667,Stable ABI for free-threaded builds,"""abi3t"": Stable ABI for Free-Threaded Builds",Defining a Stable ABI,False
+Doc/whatsnew/3.15.rst,564,793,",",weak,0.0,3133,0.5,with a new PySlot structure introduced in 820.,PyModExport: A new entry point for C extension modules,Introducing Roles,True
+Doc/whatsnew/3.15.rst,593,788,:,ok,1.0,741,0.6667,Protecting the C API from interpreter finalization,Protecting the C API from Interpreter Finalization,Python Configuration C API,False
+Doc/whatsnew/3.15.rst,1793,747,:,ok,0.6667,591,0.3333,"Add ~typing.TypeForm, a new special form for annotating",Annotating Type Forms,Adding a final qualifier to typing,False
+Doc/whatsnew/3.15.rst,1814,728,:,ok,0.5,692,0.3333,Add support in ~typing.TypedDict for the *closed*,TypedDict with Typed Extra Items,Using TypedDict for more precise \*\*kwargs typing,False
+Doc/whatsnew/3.15.rst,1832,800,:,miscite,0.5,3129,1.0,"Add typing.disjoint_base, a new decorator marking a class",Disjoint bases in the type system,Class Decorators,False
+Doc/whatsnew/3.15.rst,2542,782,",",ok,0.6667,247,0.5,the PyBytesWriter API. Add functions:,Add PyBytesWriter C API,API for Cryptographic Hash Functions,True
+Doc/whatsnew/3.15.rst,2591,820,:,ok,1.0,543,0.6667,PySlot -- Unified slot system for the C API.,PySlot: Unified slot system for the C API,A Unified TLS API for Python,False
+Doc/whatsnew/3.2.rst,60,392,-,ok,1.0,283,1.0,Python 3.2 Release Schedule,Python 3.2 Release Schedule,Python 2.3 Release Schedule,False
+Doc/whatsnew/3.2.rst,63,384,:,ok,1.0,652,0.6667,Defining a Stable ABI,Defining a Stable ABI,Maintaining the Stable ABI,False
+Doc/whatsnew/3.2.rst,83,384,-,ok,1.0,652,0.6667,Defining a Stable ABI,Defining a Stable ABI,Maintaining the Stable ABI,False
+Doc/whatsnew/3.2.rst,87,389,:,ok,1.0,2,0.5,Argparse Command Line Parsing Module,argparse - New Command Line Parsing Module,Procedure for Adding New Modules,False
+Doc/whatsnew/3.2.rst,175,389,-,ok,0.8,2,0.5,New Command Line Parsing Module,argparse - New Command Line Parsing Module,Procedure for Adding New Modules,False
+Doc/whatsnew/3.2.rst,181,391,:,ok,1.0,282,0.5,Dictionary Based Configuration for Logging,Dictionary-Based Configuration For Logging,A Logging System,False
+Doc/whatsnew/3.2.rst,230,391,-,ok,1.0,282,0.5,Dictionary Based Configuration for Logging,Dictionary-Based Configuration For Logging,A Logging System,False
+Doc/whatsnew/3.2.rst,234,3148,:,weak,0.25,2,0.5,The concurrent.futures module,futures - execute computations asynchronously,Procedure for Adding New Modules,False
+Doc/whatsnew/3.2.rst,281,3148,-,ok,1.0,236,0.5,Futures -- Execute Computations Asynchronously,futures - execute computations asynchronously,Back to the __future__,False
+Doc/whatsnew/3.2.rst,292,3147,:,ok,1.0,552,0.5,PYC Repository Directories,PYC Repository Directories,Deterministic pycs,False
+Doc/whatsnew/3.2.rst,353,3147,-,ok,1.0,552,0.5,PYC Repository Directories,PYC Repository Directories,Deterministic pycs,False
+Doc/whatsnew/3.2.rst,357,3149,:,ok,1.0,606,0.5,ABI Version Tagged .so Files,ABI version tagged .so files,Python Compatibility Version,False
+Doc/whatsnew/3.2.rst,384,3149,-,ok,1.0,606,0.5,ABI Version Tagged .so Files,ABI version tagged .so files,Python Compatibility Version,False
+Doc/whatsnew/3.2.rst,388,3333,:,ok,1.0,333,1.0,Python Web Server Gateway Interface v1.0.1,Python Web Server Gateway Interface v1.0.1,Python Web Server Gateway Interface v1.0,False
+Doc/whatsnew/3.2.rst,431,3333,-,ok,1.0,333,1.0,Python Web Server Gateway Interface v1.0.1,Python Web Server Gateway Interface v1.0.1,Python Web Server Gateway Interface v1.0,False
+Doc/whatsnew/3.3.rst,51,398,-,ok,1.0,283,0.75,Python 3.3 Release Schedule,Python 3.3 Release Schedule,Python 2.3 Release Schedule,False
+Doc/whatsnew/3.3.rst,99,405,:,ok,1.0,832,0.6667,Virtual Environments,Python Virtual Environments,Virtual environment discovery,False
+Doc/whatsnew/3.3.rst,118,405,-,ok,1.0,832,0.6667,Python Virtual Environments PEP written by Carl Meyer; implementation by Carl Meyer and Vinay Sajip,Python Virtual Environments,Virtual environment discovery,True
+Doc/whatsnew/3.3.rst,122,420,:,ok,1.0,382,1.0,Implicit Namespace Packages,Implicit Namespace Packages,Namespace Packages,False
+Doc/whatsnew/3.3.rst,132,420,-,ok,1.0,382,1.0,Implicit Namespace Packages,Implicit Namespace Packages,Namespace Packages,False
+Doc/whatsnew/3.3.rst,139,3118,:,ok,0.6667,688,0.5,New memoryview implementation and buffer protocol documentation,Revising the buffer protocol,Making the buffer protocol accessible in Python,False
+Doc/whatsnew/3.3.rst,203,3118,-,ok,1.0,688,0.5,Revising the Buffer Protocol,Revising the buffer protocol,Making the buffer protocol accessible in Python,False
+Doc/whatsnew/3.3.rst,208,393,:,ok,1.0,3138,0.6667,Flexible String Representation,Flexible String Representation,String representation in Python 3000,False
+Doc/whatsnew/3.3.rst,282,393,-,ok,1.0,3138,0.6667,Flexible String Representation,Flexible String Representation,String representation in Python 3000,False
+Doc/whatsnew/3.3.rst,289,397,:,ok,1.0,514,0.3333,Python Launcher for Windows,Python launcher for Windows,Python registration in the Windows registry,False
+Doc/whatsnew/3.3.rst,315,397,-,ok,1.0,421,0.5,Python Launcher for Windows PEP written by Mark Hammond and Martin v. Löwis; implementation by,Python launcher for Windows,Adding sys.implementation,True
+Doc/whatsnew/3.3.rst,326,3151,:,ok,1.0,3153,0.5,Reworking the OS and IO exception hierarchy,Reworking the OS and IO exception hierarchy,Asynchronous IO support,False
+Doc/whatsnew/3.3.rst,392,3151,-,ok,1.0,3153,0.5,Reworking the OS and IO Exception Hierarchy,Reworking the OS and IO exception hierarchy,Asynchronous IO support,False
+Doc/whatsnew/3.3.rst,401,380,:,ok,1.0,245,0.5,Syntax for Delegating to a Subgenerator,Syntax for Delegating to a Subgenerator,Python Interface Syntax,False
+Doc/whatsnew/3.3.rst,462,380,-,ok,1.0,245,0.5,Syntax for Delegating to a Subgenerator,Syntax for Delegating to a Subgenerator,Python Interface Syntax,False
+Doc/whatsnew/3.3.rst,468,409,:,ok,1.0,550,0.5,Suppressing exception context,Suppressing exception context,Execution Context,False
+Doc/whatsnew/3.3.rst,527,409,-,ok,1.0,550,0.5,Suppressing exception context,Suppressing exception context,Execution Context,False
+Doc/whatsnew/3.3.rst,532,414,:,ok,0.75,100,0.5,Explicit Unicode literals,Explicit Unicode Literal for Python 3.3,Python Unicode Integration,False
+Doc/whatsnew/3.3.rst,545,414,-,ok,0.75,100,0.5,Explicit Unicode literals,Explicit Unicode Literal for Python 3.3,Python Unicode Integration,False
+Doc/whatsnew/3.3.rst,549,3155,:,ok,1.0,395,0.6667,Qualified name for classes and functions,Qualified name for classes and functions,Qualified Names for Modules,False
+Doc/whatsnew/3.3.rst,609,3155,-,ok,1.0,395,0.6667,Qualified name for classes and functions,Qualified name for classes and functions,Qualified Names for Modules,False
+Doc/whatsnew/3.3.rst,615,412,:,ok,1.0,455,0.5,Key-Sharing Dictionary,Key-Sharing Dictionary,Adding a key-transforming dictionary to collections,False
+Doc/whatsnew/3.3.rst,625,412,-,ok,1.0,455,0.5,Key-Sharing Dictionary,Key-Sharing Dictionary,Adding a key-transforming dictionary to collections,False
+Doc/whatsnew/3.3.rst,629,362,:,ok,1.0,232,0.5,Function Signature Object,Function Signature Object,Function Attributes,False
+Doc/whatsnew/3.3.rst,643,362,:,ok,1.0,232,0.5,-  Function Signature Object,Function Signature Object,Function Attributes,False
+Doc/whatsnew/3.3.rst,648,421,:,ok,1.0,620,0.2,Adding sys.implementation,Adding sys.implementation,Hide implementation details from the C API,False
+Doc/whatsnew/3.3.rst,681,421,-,ok,1.0,749,0.5,Adding sys.implementation PEP written and implemented by Eric Snow.,Adding sys.implementation,Implementing PEP 649,True
+Doc/whatsnew/3.3.rst,2155,393,",",weak,0.3333,349,0.5,some operations on Unicode strings have been optimized:,Flexible String Representation,Allow str() to return unicode strings,False
+Doc/whatsnew/3.3.rst,2230,393,",",weak,0.0,540,0.6667,"use UTF-8, UTF-16 (utf-16-le or utf-16-be), or UTF-32",Flexible String Representation,Add a new UTF-8 Mode,False
+Doc/whatsnew/3.3.rst,2473,393,",",weak,0.0,100,0.5,the Py_UNICODE type and all,Flexible String Representation,Python Unicode Integration,False
+Doc/whatsnew/3.3.rst,2477,393,",",weak,0.0,670,0.2,you have to convert,Flexible String Representation,Convert macros to functions in the Python C API,False
+Doc/whatsnew/3.4.rst,70,429,--,ok,1.0,398,1.0,Python 3.4 Release Schedule,Python 3.4 Release Schedule,Python 3.3 Release Schedule,False
+Doc/whatsnew/3.4.rst,163,442,",",weak,0.0,2,0.5,in most cases :ref:`module globals are no longer set,Safe object finalization,Procedure for Adding New Modules,False
+Doc/whatsnew/3.4.rst,179,453,:,ok,1.0,439,0.4,Explicit Bootstrapping of PIP in Python Installations,Explicit bootstrapping of pip in Python installations,Inclusion of implicit pip bootstrap in Python installation,False
+Doc/whatsnew/3.4.rst,253,453,--,ok,1.0,439,0.4,Explicit bootstrapping of pip in Python installations,Explicit bootstrapping of pip in Python installations,Inclusion of implicit pip bootstrap in Python installation,False
+Doc/whatsnew/3.4.rst,260,446,:,ok,0.8571,549,0.5,Newly Created File Descriptors Are Non-Inheritable,Make newly created file descriptors non-inheritable,Instance Descriptors,False
+Doc/whatsnew/3.4.rst,278,446,--,ok,1.0,359,0.5,Make newly created file descriptors non-inheritable,Make newly created file descriptors non-inheritable,"The ""make"" Statement",False
+Doc/whatsnew/3.4.rst,379,451,:,ok,1.0,221,1.0,A ModuleSpec Type for the Import System,A ModuleSpec Type for the Import System,Import As,False
+Doc/whatsnew/3.4.rst,474,3156,--,ok,1.0,3153,1.0,"Asynchronous IO Support Rebooted: the ""asyncio"" Module","Asynchronous IO Support Rebooted: the ""asyncio"" Module",Asynchronous IO support,False
+Doc/whatsnew/3.4.rst,517,435,--,ok,1.0,784,0.6667,Adding an Enum type to the Python standard library,Adding an Enum type to the Python standard library,Adding Zstandard to the standard library,False
+Doc/whatsnew/3.4.rst,537,428,--,ok,1.0,355,1.0,The pathlib module -- object-oriented filesystem paths,The pathlib module -- object-oriented filesystem paths,Path - Object oriented filesystem paths,False
+Doc/whatsnew/3.4.rst,563,450,--,ok,1.0,506,0.75,Adding A Statistics Module To The Standard Library,Adding A Statistics Module To The Standard Library,Adding A Secrets Module To The Standard Library,False
+Doc/whatsnew/3.4.rst,582,454,--,ok,1.0,2,0.5,Add a new tracemalloc module to trace Python memory allocations,Add a new tracemalloc module to trace Python memory allocations,Procedure for Adding New Modules,False
+Doc/whatsnew/3.4.rst,870,443,--,ok,1.0,232,0.5,Single-dispatch generic functions,Single-dispatch generic functions,Function Attributes,False
+Doc/whatsnew/3.4.rst,1230,3154,--,ok,0.75,307,0.6667,Pickle protocol 4,Pickle protocol version 4,Extensions to the pickle protocol,False
+Doc/whatsnew/3.4.rst,1803,445,:,ok,0.5,11,0.5,Customization of CPython Memory Allocators,Add new APIs to customize Python memory allocators,CPython platform support,False
+Doc/whatsnew/3.4.rst,1811,445,--,ok,1.0,583,0.3333,Add new APIs to customize Python memory allocators,Add new APIs to customize Python memory allocators,A Concurrency Memory Model for Python,False
+Doc/whatsnew/3.4.rst,1817,442,:,ok,1.0,246,0.5,Safe Object Finalization,Safe object finalization,Object Adaptation,False
+Doc/whatsnew/3.4.rst,1834,442,--,ok,1.0,246,0.5,Safe object finalization,Safe object finalization,Object Adaptation,False
+Doc/whatsnew/3.4.rst,1840,456,:,ok,1.0,247,0.25,Secure and Interchangeable Hash Algorithm,Secure and interchangeable hash algorithm,API for Cryptographic Hash Functions,False
+Doc/whatsnew/3.4.rst,1859,436,:,ok,0.6667,286,0.3333,Argument Clinic,The Argument Clinic DSL,Enhanced Argument Tuples,False
+Doc/whatsnew/3.4.rst,1883,436,--,ok,1.0,437,0.3333,The Argument Clinic DSL,The Argument Clinic DSL,"A DSL for specifying signatures, annotations and argument converters",False
+Doc/whatsnew/3.4.rst,2524,476,:,ok,1.0,330,0.5,Enabling certificate verification by default for stdlib http clients,Enabling certificate verification by default for stdlib http clients,Python Bytecode Verification,False
+Doc/whatsnew/3.5.rst,54,478,-,ok,1.0,398,1.0,Python 3.5 Release Schedule,Python 3.5 Release Schedule,Python 3.3 Release Schedule,False
+Doc/whatsnew/3.5.rst,62,492,",",ok,1.0,245,0.5,coroutines with async and await syntax.,Coroutines with async and await syntax,Python Interface Syntax,False
+Doc/whatsnew/3.5.rst,63,465,",",ok,0.6,211,0.3333,a new matrix multiplication operator: a @ b.,A dedicated infix operator for matrix multiplication,Adding A New Outer Product Operator,False
+Doc/whatsnew/3.5.rst,64,448,",",ok,1.0,798,0.5,additional unpacking generalizations.,Additional Unpacking Generalizations,Unpacking in Comprehensions,False
+Doc/whatsnew/3.5.rst,69,484,--,ok,1.0,483,0.6667,Type Hints <whatsnew-pep-484>`.,Type Hints,The Theory of Type Hints,False
+Doc/whatsnew/3.5.rst,76,461,--,ok,1.0,358,0.5,Adding % formatting to bytes and bytearray.,Adding % formatting to bytes and bytearray,"The ""bytes"" Object",True
+Doc/whatsnew/3.5.rst,167,492,-,ok,1.0,245,0.5,Coroutines with async and await syntax,Coroutines with async and await syntax,Python Interface Syntax,False
+Doc/whatsnew/3.5.rst,265,492,--,ok,1.0,245,0.5,Coroutines with async and await syntax,Coroutines with async and await syntax,Python Interface Syntax,False
+Doc/whatsnew/3.5.rst,271,465,-,ok,1.0,211,0.3333,A dedicated infix operator for matrix multiplication,A dedicated infix operator for matrix multiplication,Adding A New Outer Product Operator,False
+Doc/whatsnew/3.5.rst,313,465,--,ok,1.0,211,0.3333,A dedicated infix operator for matrix multiplication,A dedicated infix operator for matrix multiplication,Adding A New Outer Product Operator,False
+Doc/whatsnew/3.5.rst,319,448,-,ok,1.0,798,0.5,Additional Unpacking Generalizations,Additional Unpacking Generalizations,Unpacking in Comprehensions,False
+Doc/whatsnew/3.5.rst,353,448,--,ok,1.0,798,0.5,Additional Unpacking Generalizations,Additional Unpacking Generalizations,Unpacking in Comprehensions,False
+Doc/whatsnew/3.5.rst,360,461,-,ok,1.0,358,0.5,percent formatting support for bytes and bytearray,Adding % formatting to bytes and bytearray,"The ""bytes"" Object",False
+Doc/whatsnew/3.5.rst,398,461,--,ok,1.0,358,0.5,Adding % formatting to bytes and bytearray,Adding % formatting to bytes and bytearray,"The ""bytes"" Object",False
+Doc/whatsnew/3.5.rst,405,484,-,ok,1.0,483,0.6667,Type Hints,Type Hints,The Theory of Type Hints,False
+Doc/whatsnew/3.5.rst,439,484,--,ok,1.0,483,0.6667,"Type Hints PEP written by Guido van Rossum, Jukka Lehtosalo, and Łukasz Langa;",Type Hints,The Theory of Type Hints,True
+Doc/whatsnew/3.5.rst,442,483,--,ok,1.0,484,1.0,The Theory of Type Hints,The Theory of Type Hints,Type Hints,False
+Doc/whatsnew/3.5.rst,448,471,-,ok,1.0,234,1.0,os.scandir() function -- a better and faster directory iterator,os.scandir() function -- a better and faster directory iterator,Iterators,False
+Doc/whatsnew/3.5.rst,473,471,--,ok,1.0,234,1.0,os.scandir() function -- a better and faster directory iterator,os.scandir() function -- a better and faster directory iterator,Iterators,False
+Doc/whatsnew/3.5.rst,479,475,:,ok,1.0,282,0.5,Retry system calls failing with EINTR,Retry system calls failing with EINTR,A Logging System,False
+Doc/whatsnew/3.5.rst,552,475,--,ok,1.0,282,0.5,Retry system calls failing with EINTR,Retry system calls failing with EINTR,A Logging System,False
+Doc/whatsnew/3.5.rst,559,479,:,ok,1.0,255,0.5,Change StopIteration handling inside generators,Change StopIteration handling inside generators,Simple Generators,False
+Doc/whatsnew/3.5.rst,601,479,--,ok,1.0,255,0.5,Change StopIteration handling inside generators,Change StopIteration handling inside generators,Simple Generators,False
+Doc/whatsnew/3.5.rst,608,485,:,ok,1.0,232,0.5,A function for testing approximate equality,A Function for testing approximate equality,Function Attributes,False
+Doc/whatsnew/3.5.rst,639,485,--,ok,1.0,232,0.5,A function for testing approximate equality,A Function for testing approximate equality,Function Attributes,False
+Doc/whatsnew/3.5.rst,646,486,:,ok,1.0,405,1.0,Make the Python Launcher aware of virtual environments,Make the Python Launcher aware of virtual environments,Python Virtual Environments,False
+Doc/whatsnew/3.5.rst,656,486,--,ok,1.0,405,1.0,Make the Python Launcher aware of virtual environments,Make the Python Launcher aware of virtual environments,Python Virtual Environments,False
+Doc/whatsnew/3.5.rst,662,488,:,ok,1.0,305,0.3333,Elimination of PYO files,Elimination of PYO files,CSV File API,False
+Doc/whatsnew/3.5.rst,677,488,--,ok,1.0,305,0.3333,Elimination of PYO files,Elimination of PYO files,CSV File API,False
+Doc/whatsnew/3.5.rst,683,489,:,ok,1.0,3121,0.75,Multi-phase extension module initialization,Multi-phase extension module initialization,Extension Module Initialization and Finalization,False
+Doc/whatsnew/3.5.rst,696,489,--,ok,1.0,3121,0.75,Multi-phase extension module initialization,Multi-phase extension module initialization,Extension Module Initialization and Finalization,False
+Doc/whatsnew/3.5.rst,758,441,--,ok,1.0,309,0.3333,Improving Python ZIP Application Support,Improving Python ZIP Application Support,Partial Function Application,False
+Doc/whatsnew/3.5.rst,2279,479,:,ok,1.0,255,0.5,Change StopIteration handling inside generators <whatsnew-pep-479>`,Change StopIteration handling inside generators,Simple Generators,False
+Doc/whatsnew/3.5.rst,2399,475,:,ok,0.6,282,0.5,System calls are now retried when interrupted by a signal instead,Retry system calls failing with EINTR,A Logging System,False
+Doc/whatsnew/3.6.rst,54,494,-,ok,1.0,398,1.0,Python 3.6 Release Schedule,Python 3.6 Release Schedule,Python 3.3 Release Schedule,False
+Doc/whatsnew/3.6.rst,62,498,",",ok,0.6667,3101,0.6667,formatted string literals.,Literal String Interpolation,Advanced String Formatting,False
+Doc/whatsnew/3.6.rst,64,515,",",ok,1.0,204,0.5,underscores in numeric literals.,Underscores in Numeric Literals,Range Literals,False
+Doc/whatsnew/3.6.rst,66,526,",",ok,1.0,640,0.6667,syntax for variable annotations.,Syntax for Variable Annotations,Unused variable syntax,False
+Doc/whatsnew/3.6.rst,68,525,",",ok,1.0,828,0.5,asynchronous generators.,Asynchronous Generators,Supporting 'yield from' in asynchronous generators,False
+Doc/whatsnew/3.6.rst,70,530,:,ok,1.0,202,0.5,asynchronous comprehensions.,Asynchronous Comprehensions,List Comprehensions,False
+Doc/whatsnew/3.6.rst,75,506,--,ok,1.0,450,0.75,Adding A Secrets Module To The Standard Library <whatsnew36-pep506>`.,Adding A Secrets Module To The Standard Library,Adding A Statistics Module To The Standard Library,False
+Doc/whatsnew/3.6.rst,151,529,",",ok,1.0,528,1.0,Windows filesystem and console encoding changed to UTF-8.,Change Windows filesystem encoding to UTF-8,Change Windows console encoding to UTF-8,True
+Doc/whatsnew/3.6.rst,180,498,:,ok,0.6667,3101,0.6667,Formatted string literals,Literal String Interpolation,Advanced String Formatting,False
+Doc/whatsnew/3.6.rst,203,498,--,ok,1.0,215,1.0,Literal String Interpolation.,Literal String Interpolation,String Interpolation,False
+Doc/whatsnew/3.6.rst,211,526,:,ok,1.0,640,0.6667,Syntax for variable annotations,Syntax for Variable Annotations,Unused variable syntax,False
+Doc/whatsnew/3.6.rst,236,526,--,ok,1.0,640,0.6667,Syntax for variable annotations.,Syntax for Variable Annotations,Unused variable syntax,False
+Doc/whatsnew/3.6.rst,247,515,:,ok,1.0,204,0.5,Underscores in Numeric Literals,Underscores in Numeric Literals,Range Literals,False
+Doc/whatsnew/3.6.rst,276,515,--,ok,1.0,204,0.5,Underscores in Numeric Literals,Underscores in Numeric Literals,Range Literals,False
+Doc/whatsnew/3.6.rst,282,525,:,ok,1.0,828,0.5,Asynchronous Generators,Asynchronous Generators,Supporting 'yield from' in asynchronous generators,False
+Doc/whatsnew/3.6.rst,301,525,--,ok,1.0,828,0.5,Asynchronous Generators PEP written and implemented by Yury Selivanov.,Asynchronous Generators,Supporting 'yield from' in asynchronous generators,True
+Doc/whatsnew/3.6.rst,307,530,:,ok,1.0,202,0.5,Asynchronous Comprehensions,Asynchronous Comprehensions,List Comprehensions,False
+Doc/whatsnew/3.6.rst,322,530,--,ok,1.0,202,0.5,Asynchronous Comprehensions PEP written and implemented by Yury Selivanov.,Asynchronous Comprehensions,List Comprehensions,True
+Doc/whatsnew/3.6.rst,328,487,:,ok,0.75,422,0.75,Simpler customization of class creation,Simpler customisation of class creation,Simpler customisation of class creation,False
+Doc/whatsnew/3.6.rst,355,487,--,ok,0.75,422,0.75,Simpler customization of class creation,Simpler customisation of class creation,Simpler customisation of class creation,False
+Doc/whatsnew/3.6.rst,363,487,:,weak,0.0,351,0.5,Descriptor Protocol Enhancements,Simpler customisation of class creation,The freeze protocol,False
+Doc/whatsnew/3.6.rst,393,487,--,ok,0.75,422,0.75,Simpler customization of class creation,Simpler customisation of class creation,Simpler customisation of class creation,False
+Doc/whatsnew/3.6.rst,401,519,:,ok,1.0,282,0.5,Adding a file system path protocol,Adding a file system path protocol,A Logging System,False
+Doc/whatsnew/3.6.rst,461,519,--,ok,1.0,282,0.5,Adding a file system path protocol,Adding a file system path protocol,A Logging System,False
+Doc/whatsnew/3.6.rst,467,495,:,ok,1.0,431,0.3333,Local Time Disambiguation,Local Time Disambiguation,Time zone support improvements,False
+Doc/whatsnew/3.6.rst,497,495,--,ok,1.0,431,0.3333,Local Time Disambiguation,Local Time Disambiguation,Time zone support improvements,False
+Doc/whatsnew/3.6.rst,504,529,:,ok,1.0,528,0.8333,Change Windows filesystem encoding to UTF-8,Change Windows filesystem encoding to UTF-8,Change Windows console encoding to UTF-8,False
+Doc/whatsnew/3.6.rst,528,528,:,ok,1.0,529,0.8333,Change Windows console encoding to UTF-8,Change Windows console encoding to UTF-8,Change Windows filesystem encoding to UTF-8,False
+Doc/whatsnew/3.6.rst,541,528,--,ok,1.0,529,0.8333,Change Windows console encoding to UTF-8,Change Windows console encoding to UTF-8,Change Windows filesystem encoding to UTF-8,False
+Doc/whatsnew/3.6.rst,547,520,:,ok,1.0,468,0.5,Preserving Class Attribute Definition Order,Preserving Class Attribute Definition Order,Preserving the order of \*\*kwargs in a function.,False
+Doc/whatsnew/3.6.rst,560,520,--,ok,1.0,468,0.5,Preserving Class Attribute Definition Order,Preserving Class Attribute Definition Order,Preserving the order of \*\*kwargs in a function.,False
+Doc/whatsnew/3.6.rst,566,468,:,ok,0.5,472,0.6667,Preserving Keyword Argument Order,Preserving the order of \*\*kwargs in a function.,Support for indexing with keyword arguments,False
+Doc/whatsnew/3.6.rst,574,468,--,ok,0.5,472,0.6667,Preserving Keyword Argument Order,Preserving the order of \*\*kwargs in a function.,Support for indexing with keyword arguments,False
+Doc/whatsnew/3.6.rst,607,523,:,ok,1.0,11,0.5,Adding a frame evaluation API to CPython,Adding a frame evaluation API to CPython,CPython platform support,False
+Doc/whatsnew/3.6.rst,630,523,--,ok,1.0,11,0.5,Adding a frame evaluation API to CPython,Adding a frame evaluation API to CPython,CPython platform support,False
+Doc/whatsnew/3.6.rst,787,506,--,ok,1.0,450,0.75,Adding A Secrets Module To The Standard Library,Adding A Secrets Module To The Standard Library,Adding A Statistics Module To The Standard Library,False
+Doc/whatsnew/3.6.rst,1623,526,",",ok,0.6667,593,0.5,a variable annotation,Syntax for Variable Annotations,Flexible function and variable annotations,False
+Doc/whatsnew/3.6.rst,2253,487,",",weak,0.0,472,0.6667,the handling of keyword arguments passed to,Simpler customisation of class creation,Support for indexing with keyword arguments,False
+Doc/whatsnew/3.7.rst,60,563,",",ok,1.0,239,0.5,postponed evaluation of type annotations.,Postponed Evaluation of Annotations,Adding a Rational Type to Python,False
+Doc/whatsnew/3.7.rst,68,567,--,ok,1.0,555,0.5,Context Variables <whatsnew37-pep567>`,Context Variables,Context-local variables (contextvars),False
+Doc/whatsnew/3.7.rst,69,557,--,ok,1.0,681,0.6667,Data Classes <whatsnew37-pep557>`,Data Classes,Data Class Transforms,False
+Doc/whatsnew/3.7.rst,74,553,",",ok,0.5,232,0.5,the new breakpoint function.,Built-in breakpoint(),Function Attributes,False
+Doc/whatsnew/3.7.rst,78,562,",",weak,0.3333,213,0.6667,customization of access to module attributes.,Module __getattr__ and __dir__,Attribute Access Handlers,True
+Doc/whatsnew/3.7.rst,81,560,",",ok,0.6,2,0.5,core support for typing module and,Core support for typing module and generic types,Procedure for Adding New Modules,False
+Doc/whatsnew/3.7.rst,102,538,",",ok,0.4286,743,0.4,legacy C locale coercion,Coercing the legacy C locale to a UTF-8 based locale,Add Py_OMIT_LEGACY_API to the Python C API,False
+Doc/whatsnew/3.7.rst,103,540,",",ok,1.0,686,0.6,forced UTF-8 runtime mode,Add a new UTF-8 Mode,Make UTF-8 mode default,False
+Doc/whatsnew/3.7.rst,104,552,",",ok,1.0,533,0.3333,deterministic .pycs,Deterministic pycs,Deterministic cleanup for iterators,False
+Doc/whatsnew/3.7.rst,106,565,",",weak,0.3333,441,0.3333,improved DeprecationWarning handling,Show DeprecationWarning in __main__,Improving Python ZIP Application Support,True
+Doc/whatsnew/3.7.rst,111,539,",",ok,0.8333,741,0.6667,new C API for thread-local storage,A New C-API for Thread-Local Storage in CPython,Python Configuration C API,False
+Doc/whatsnew/3.7.rst,115,545,",",ok,1.0,727,0.3333,Python documentation translations,Python Documentation Translations,Documentation in Annotated Metadata,False
+Doc/whatsnew/3.7.rst,132,563,:,ok,1.0,3107,0.5,Postponed Evaluation of Annotations,Postponed Evaluation of Annotations,Function Annotations,False
+Doc/whatsnew/3.7.rst,178,563,--,ok,1.0,3107,0.5,Postponed evaluation of annotations,Postponed Evaluation of Annotations,Function Annotations,False
+Doc/whatsnew/3.7.rst,184,538,:,ok,0.4286,743,0.4,Legacy C Locale Coercion,Coercing the legacy C locale to a UTF-8 based locale,Add Py_OMIT_LEGACY_API to the Python C API,False
+Doc/whatsnew/3.7.rst,225,538,--,ok,1.0,540,0.6667,Coercing the legacy C locale to a UTF-8 based locale,Coercing the legacy C locale to a UTF-8 based locale,Add a new UTF-8 Mode,False
+Doc/whatsnew/3.7.rst,231,540,:,ok,1.0,686,0.6,Forced UTF-8 Runtime Mode,Add a new UTF-8 Mode,Make UTF-8 mode default,False
+Doc/whatsnew/3.7.rst,260,540,--,ok,1.0,686,0.6,Add a new UTF-8 mode,Add a new UTF-8 Mode,Make UTF-8 mode default,False
+Doc/whatsnew/3.7.rst,266,553,:,ok,1.0,559,0.5,Built-in breakpoint(),Built-in breakpoint(),Built-in noop(),False
+Doc/whatsnew/3.7.rst,282,553,--,ok,1.0,559,0.5,Built-in breakpoint() PEP written and implemented by Barry Warsaw,Built-in breakpoint(),Built-in noop(),True
+Doc/whatsnew/3.7.rst,288,539,:,ok,0.8333,741,0.6667,New C API for Thread-Local Storage,A New C-API for Thread-Local Storage in CPython,Python Configuration C API,False
+Doc/whatsnew/3.7.rst,314,539,--,ok,1.0,741,0.6667,A New C-API for Thread-Local Storage in CPython,A New C-API for Thread-Local Storage in CPython,Python Configuration C API,False
+Doc/whatsnew/3.7.rst,320,562,:,weak,0.3333,213,0.6667,Customization of Access to Module Attributes,Module __getattr__ and __dir__,Attribute Access Handlers,False
+Doc/whatsnew/3.7.rst,332,562,--,ok,1.0,2,0.5,Module __getattr__ and __dir__,Module __getattr__ and __dir__,Procedure for Adding New Modules,False
+Doc/whatsnew/3.7.rst,338,564,:,ok,1.0,232,0.5,New Time Functions With Nanosecond Resolution,Add new time functions with nanosecond resolution,Function Attributes,False
+Doc/whatsnew/3.7.rst,362,564,--,ok,1.0,232,0.5,Add new time functions with nanosecond resolution,Add new time functions with nanosecond resolution,Function Attributes,False
+Doc/whatsnew/3.7.rst,368,565,:,ok,1.0,3122,0.3333,Show DeprecationWarning in __main__,Show DeprecationWarning in __main__,Delineation of the main module,False
+Doc/whatsnew/3.7.rst,400,565,--,ok,1.0,3122,0.3333,Show DeprecationWarning in __main__,Show DeprecationWarning in __main__,Delineation of the main module,False
+Doc/whatsnew/3.7.rst,406,560,:,ok,1.0,294,0.6667,Core Support for typing module and Generic Types,Core support for typing module and generic types,Type Names in the types Module,False
+Doc/whatsnew/3.7.rst,421,560,--,ok,1.0,294,0.6667,Core support for typing module and generic types,Core support for typing module and generic types,Type Names in the types Module,False
+Doc/whatsnew/3.7.rst,427,552,:,ok,0.5,305,0.3333,Hash-based .pyc Files,Deterministic pycs,CSV File API,False
+Doc/whatsnew/3.7.rst,456,552,--,ok,1.0,749,0.5,Deterministic pycs PEP written and implemented by Benjamin Peterson,Deterministic pycs,Implementing PEP 649,True
+Doc/whatsnew/3.7.rst,462,545,:,ok,1.0,727,0.3333,Python Documentation Translations,Python Documentation Translations,Documentation in Annotated Metadata,False
+Doc/whatsnew/3.7.rst,476,545,--,ok,1.0,749,0.5,"Python Documentation Translations PEP written and implemented by Julien Palard, Inada Naoki, and",Python Documentation Translations,Implementing PEP 649,True
+Doc/whatsnew/3.7.rst,565,567,--,ok,1.0,555,0.5,Context Variables PEP written and implemented by Yury Selivanov,Context Variables,Context-local variables (contextvars),True
+Doc/whatsnew/3.7.rst,593,557,--,ok,1.0,681,0.6667,Data Classes PEP written and implemented by Eric V. Smith,Data Classes,Data Class Transforms,True
+Doc/whatsnew/3.8.rst,284,578,:,ok,1.0,302,0.5,Python Runtime Audit Hooks,Python Runtime Audit Hooks,New Import Hooks,False
+Doc/whatsnew/3.8.rst,296,587,:,ok,1.0,741,0.3333,Python Initialization Configuration,Python Initialization Configuration,Python Configuration C API,False
+Doc/whatsnew/3.8.rst,352,590,:,ok,1.0,580,0.6667,Vectorcall: a fast calling protocol for CPython,Vectorcall: a fast calling protocol for CPython,The C call protocol,False
+Doc/whatsnew/3.8.rst,1335,591,",",ok,0.6667,729,0.3333,typing.Final and typing.final.,Adding a final qualifier to typing,Typing governance process,True
+Doc/whatsnew/3.8.rst,1342,544,",",weak,0.3333,255,0.5,typing.Protocol and typing.runtime_checkable.  Simple ABCs like,Protocols: Structural subtyping (static duck typing),Simple Generators,True
+Doc/whatsnew/3.9.rst,51,596,-,ok,1.0,398,1.0,Python 3.9 Release Schedule,Python 3.9 Release Schedule,Python 3.3 Release Schedule,False
+Doc/whatsnew/3.9.rst,62,584,",",ok,1.0,274,0.5,union operators added to dict;,Add Union Operators To dict,Dict Comprehensions,False
+Doc/whatsnew/3.9.rst,63,585,",",ok,1.0,484,1.0,type hinting generics in standard collections;,Type Hinting Generics In Standard Collections,Type Hints,False
+Doc/whatsnew/3.9.rst,64,614,",",ok,1.0,3129,0.5,relaxed grammar restrictions on decorators.,Relaxing Grammar Restrictions On Decorators,Class Decorators,False
+Doc/whatsnew/3.9.rst,68,616,",",ok,1.0,3126,0.5,string methods to remove prefixes and suffixes.,String methods to remove prefixes and suffixes,Remove Implicit String Concatenation,False
+Doc/whatsnew/3.9.rst,72,593,",",ok,1.0,3107,1.0,flexible function and variable annotations;,Flexible function and variable annotations,Function Annotations,False
+Doc/whatsnew/3.9.rst,78,573,",",ok,1.0,630,0.6667,fast access to module state from methods of C extension,Module State Access from C Extension Methods,Isolating Extension Modules,False
+Doc/whatsnew/3.9.rst,80,617,",",ok,1.0,11,0.5,CPython now uses a new parser based on PEG;,New PEG parser for CPython,CPython platform support,False
+Doc/whatsnew/3.9.rst,96,615,",",ok,0.8333,431,0.6667,the IANA Time Zone Database is now present in the standard,Support for the IANA Time Zone Database in the Standard Library,Time zone support improvements,False
+Doc/whatsnew/3.9.rst,103,602,",",ok,1.0,11,0.5,CPython adopts an annual release cycle.,Annual Release Cycle for Python,CPython platform support,False
+Doc/whatsnew/3.9.rst,308,615,--,ok,1.0,431,0.6667,Support for the IANA Time Zone Database in the Standard Library,Support for the IANA Time Zone Database in the Standard Library,Time zone support improvements,False
+Doc/whatsnew/3.9.rst,1274,573,:,weak,0.0,0,0.0,Added PyType_FromModuleAndSpec to associate,Module State Access from C Extension Methods,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/3.9.rst,1475,393,",",weak,0.0,232,0.5,and broken since Python 3.3. The PyUnicode_Tailmatch function can be,Flexible String Representation,Function Attributes,True

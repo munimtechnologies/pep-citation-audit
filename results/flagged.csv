@@ -1,0 +1,93 @@
+file,line,pep,sep,flag,cited_score,best_other,best_other_score,label,cited_title,best_other_title,from_next_line
+Doc/builtins/functions.rst,1322,667,",",weak,0.0,246,0.5,the semantics of mutating the mapping objects,Consistent views of namespaces,Object Adaptation,False
+Doc/c-api/frame.rst,142,667,",",weak,0.0,239,0.5,return an instance of PyFrameLocalsProxy_Type.,Consistent views of namespaces,Adding a Rational Type to Python,False
+Doc/c-api/frame.rst,219,523,",",weak,0.0,3099,0.3333,you will not need this.,Adding a frame evaluation API to CPython,Things that will Not Change in Python 3000,False
+Doc/c-api/reflection.rst,40,667,",",weak,0.0,495,0.3333,"PyFrame_GetLocals, locals, and",Consistent views of namespaces,Local Time Disambiguation,False
+Doc/faq/programming.rst,1916,8,",",weak,0.0,531,0.3333,an identity test is the preferred way to check,Style Guide for Python Code,Existence checking operators,False
+Doc/glossary.rst,59,649,",",weak,0.0,268,0.25,which describe this functionality.,Deferred Evaluation Of Annotations Using Descriptors,Extended HTTP functionality and WebDAV,False
+Doc/glossary.rst,628,484,",",weak,0.0,268,0.25,which describe this functionality.,Type Hints,Extended HTTP functionality and WebDAV,True
+Doc/glossary.rst,709,585,",",weak,0.0,2,0.5,and the typing module.,Type Hinting Generics In Standard Collections,Procedure for Adding New Modules,False
+Doc/glossary.rst,1490,387,:,weak,0.0,4,0.3333,Soft Deprecation <https://peps.python.org/pep-0387/#soft-deprecation>`_.,Backwards Compatibility Policy,Deprecation of Standard Modules,True
+Doc/glossary.rst,1674,484,",",weak,0.0,268,0.25,which describe this functionality.,Type Hints,Extended HTTP functionality and WebDAV,False
+Doc/glossary.rst,1688,484,",",weak,0.0,268,0.25,which describe this functionality.,Type Hints,Extended HTTP functionality and WebDAV,False
+Doc/glossary.rst,1694,3116,",",weak,0.0,358,0.5,as well as bytes.splitlines for an additional use.,New I/O,"The ""bytes"" Object",True
+Doc/glossary.rst,1714,526,",",weak,0.0,268,0.25,which describe this functionality.,Syntax for Variable Annotations,Extended HTTP functionality and WebDAV,False
+Doc/library/collections.rst,1216,468,",",weak,0.25,472,0.6667,order is retained for keyword arguments,Preserving the order of \*\*kwargs in a function.,Support for indexing with keyword arguments,False
+Doc/library/gc.rst,292,442,",",weak,0.3333,270,0.5,objects with a ~object.__del__ method don't end,Safe object finalization,uniq method for list objects,False
+Doc/library/importlib.rst,719,489,",",weak,0.0,749,0.5,the builtin importer now implements,Multi-phase extension module initialization,Implementing PEP 649,False
+Doc/library/resource.rst,25,3151,",",weak,0.0,557,0.5,this class was made an alias of OSError.,Reworking the OS and IO exception hierarchy,Data Classes,False
+Doc/library/select.rst,35,3151,",",weak,0.0,557,0.5,this class was made an alias of OSError.,Reworking the OS and IO exception hierarchy,Data Classes,False
+Doc/library/socket.rst,318,3151,",",weak,0.0,557,0.5,this class was made an alias of OSError.,Reworking the OS and IO exception hierarchy,Data Classes,False
+Doc/library/sqlite3.rst,31,249,",",weak,0.0,0,0.0,and,Python Database API Specification v2.0,Index of Python Enhancement Proposals (PEPs),False
+Doc/library/string.rst,142,3101,",",weak,0.0,294,0.3333,"such as ""0[name]"" or ""label.title"". *args* and *kwargs* are as passed in to",Advanced String Formatting,Type Names in the types Module,True
+Doc/library/superseded.rst,20,594,",",weak,0.0,0,0.0,there are,Removing dead batteries from the standard library,Index of Python Enhancement Proposals (PEPs),False
+Doc/library/sys.rst,1308,734,",",weak,0.3333,210,0.3333,and concurrent.interpreters.,Multiple Interpreters in the Stdlib,Decoupling the Interpreter Loop,False
+Doc/library/sys.rst,1559,393,",",weak,0.0,421,0.5,sys.maxunicode used to be either 0xFFFF,Flexible String Representation,Adding sys.implementation,False
+Doc/library/types.rst,401,584,",",weak,0.0,380,0.3333,which simply delegates to the underlying mapping.,Add Union Operators To dict,Syntax for Delegating to a Subgenerator,True
+Doc/library/zipimport.rst,48,273,",",weak,0.0,421,0.5,but uses an implementation written by Just,Import Modules from Zip Archives,Adding sys.implementation,False
+Doc/reference/import.rst,961,302,",",weak,0.0,0,0.0,with,New Import Hooks,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.1.rst,216,207,",",weak,0.0,0,0.0,or to,Rich Comparisons,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.1.rst,301,229,:,weak,0.3333,282,0.5,New Build System,Using Distutils to Build Python,A Logging System,False
+Doc/whatsnew/2.1.rst,568,241,",",weak,0.0,0,0.3333,as well as various bugfixes and enhancements.  It will be,Metadata for Python Software Packages,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.3.rst,40,218,:,weak,0.25,4,0.3333,A Standard Set Datatype,Adding a Built-In Set Object Type,Deprecation of Standard Modules,False
+Doc/whatsnew/2.3.rst,330,273,",",weak,0.0,421,0.5,but uses an implementation written by,Import Modules from Zip Archives,Adding sys.implementation,False
+Doc/whatsnew/2.3.rst,411,279,:,weak,0.3333,0,0.0,enumerate(),The enumerate() built-in function,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.3.rst,768,305,:,weak,0.3333,488,0.3333,Comma-separated Files,CSV File API,Elimination of PYO files,False
+Doc/whatsnew/2.3.rst,814,307,:,weak,0.3333,0,0.3333,Pickle Enhancements,Extensions to the pickle protocol,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.5.rst,415,342,:,weak,0.3333,42,0.5,New Generator Features,Coroutines via Enhanced Generators,Feature Requests,False
+Doc/whatsnew/2.5.rst,812,352,:,weak,0.3333,557,0.5,Exceptions as New-Style Classes,Required Superclass for Exceptions,Data Classes,False
+Doc/whatsnew/2.5.rst,930,357,:,weak,0.0,0,0.3333,The '__index__' method,Allowing Any Object to be Used for Slicing,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/2.6.rst,899,3110,:,weak,0.3333,479,0.4,Exception-Handling Changes,Catching Exceptions in Python 3000,Change StopIteration handling inside generators,False
+Doc/whatsnew/2.7.rst,547,3106,:,weak,0.0,265,0.3333,Dictionary Views,"Revamping dict.keys(), .values() and .items()",Sorting Dictionaries by Value,False
+Doc/whatsnew/2.7.rst,610,3137,:,weak,0.0,246,0.5,The memoryview Object,Immutable Bytes and Mutable Buffer,Object Adaptation,False
+Doc/whatsnew/3.0.rst,209,237,:,weak,0.3333,276,0.3333,"Essentially, !long renamed to int.",Unifying Long Integers and Integers,Simple Iterator for ints,False
+Doc/whatsnew/3.0.rst,213,238,:,weak,0.0,226,0.5,An expression like 1/2 returns a float.  Use,Changing the Division Operator,Python 2.1 Release Schedule,False
+Doc/whatsnew/3.0.rst,330,3138,:,weak,0.3333,215,0.5,The repr of a string no longer escapes,String representation in Python 3000,String Interpolation,False
+Doc/whatsnew/3.0.rst,374,3104,:,weak,0.0,343,1.0,nonlocal statement.  Using nonlocal x,Access to Names in Outer Scopes,"The ""with"" Statement",False
+Doc/whatsnew/3.0.rst,408,3134,:,weak,0.0,343,1.0,new raise statement syntax:,Exception Chaining and Embedded Tracebacks,"The ""with"" Statement",False
+Doc/whatsnew/3.0.rst,573,8,",",weak,0.0,202,0.5,or for various other reasons.  Here's the list:,Style Guide for Python Code,List Comprehensions,False
+Doc/whatsnew/3.0.rst,690,352,:,weak,0.3333,434,0.4,All exceptions must be derived (directly or indirectly),Required Superclass for Exceptions,IDLE Enhancement Exception for All Branches,False
+Doc/whatsnew/3.0.rst,805,3111,:,weak,0.25,3114,0.3333,!raw_input was renamed to input.  That,Simple input built-in in Python 3000,Renaming iterator.next() to iterator.__next__(),False
+Doc/whatsnew/3.0.rst,862,3118,:,weak,0.3333,298,0.3333,New Buffer API.,Revising the buffer protocol,The Locked Buffer Interface,False
+Doc/whatsnew/3.10.rst,86,623,",",weak,0.3333,632,0.3333,Deprecate and prepare for the removal of the wstr member in PyUnicodeObject.,Remove wstr from Unicode,Deprecate distutils module,False
+Doc/whatsnew/3.10.rst,721,604,:,weak,0.3333,584,0.6667,New Type Union Operator,Allow writing union types as ``X | Y``,Add Union Operators To dict,False
+Doc/whatsnew/3.10.rst,778,613,:,weak,0.0,0,0.0,TypeAlias,Explicit Type Aliases,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/3.10.rst,1537,451,:,weak,0.0,0,0.0,"~zipimport.zipimporter.find_spec,",A ModuleSpec Type for the Import System,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/3.12.rst,123,701,",",weak,0.0,2,0.5,producing tokens via the tokenize module is up to 64% faster.,Syntactic formalization of f-strings,Procedure for Adding New Modules,True
+Doc/whatsnew/3.12.rst,136,697,",",miscite,0.3333,689,1.0,unstable C API tier,Limited C API for Extending Opaque Types,Unstable C API tier,False
+Doc/whatsnew/3.12.rst,156,632,:,weak,0.3333,301,0.5,Remove the !distutils package.,Deprecate distutils module,Package Index and Metadata for Distutils,False
+Doc/whatsnew/3.12.rst,1351,626,",",weak,0.0,693,0.5,but it only got a proper DeprecationWarning in 3.12.,Precise line numbers for debugging and other tools.,Python 3.12 Release Schedule,True
+Doc/whatsnew/3.12.rst,1383,594,",",weak,0.0,494,0.5,having been deprecated in Python 3.6.,Removing dead batteries from the standard library,Python 3.6 Release Schedule,True
+Doc/whatsnew/3.12.rst,1559,594,",",weak,0.0,429,0.5,having been deprecated in Python 3.4.7 and 3.5.4.,Removing dead batteries from the standard library,Python 3.4 Release Schedule,True
+Doc/whatsnew/3.12.rst,1866,697,:,miscite,0.3333,689,1.0,"Introduce the Unstable C API tier,",Limited C API for Extending Opaque Types,Unstable C API tier,False
+Doc/whatsnew/3.12.rst,2012,684,:,weak,0.0,232,0.5,"Add the new Py_NewInterpreterFromConfig function and PyInterpreterConfig, which may be used",A Per-Interpreter GIL,Function Attributes,True
+Doc/whatsnew/3.12.rst,2166,699,",",weak,0.3333,606,0.5,the ma_version_tag field in PyDictObject,Remove private dict version field added in PEP 509,Python Compatibility Version,False
+Doc/whatsnew/3.13.rst,103,667,:,weak,0.0,416,0.3333,The locals builtin now has,Consistent views of namespaces,Add a frozendict builtin type,False
+Doc/whatsnew/3.13.rst,108,703,:,weak,0.1667,719,0.5,CPython 3.13 has experimental support for running with the,Making the Global Interpreter Lock Optional in CPython,Python 3.13 Release Schedule,False
+Doc/whatsnew/3.13.rst,164,702,:,weak,0.0,230,0.5,The new warnings.deprecated decorator adds support,Marking deprecations using the type system,Warning Framework,False
+Doc/whatsnew/3.13.rst,166,705,:,weak,0.25,728,0.5,typing.ReadOnly can be used to mark an item of a,TypedDict: Read-only items,TypedDict with Typed Extra Items,False
+Doc/whatsnew/3.13.rst,168,742,:,weak,0.3333,692,0.3333,typing.TypeIs provides more intuitive,Narrowing types with TypeIs,Using TypedDict for more precise \*\*kwargs typing,False
+Doc/whatsnew/3.13.rst,1391,705,:,weak,0.0,591,0.3333,"Add ~typing.ReadOnly, a special typing construct",TypedDict: Read-only items,Adding a final qualifier to typing,False
+Doc/whatsnew/3.13.rst,1394,742,:,weak,0.3333,591,0.3333,"Add ~typing.TypeIs, a typing construct",Narrowing types with TypeIs,Adding a final qualifier to typing,False
+Doc/whatsnew/3.13.rst,1439,702,:,weak,0.0,230,0.5,The new warnings.deprecated decorator provides a way to,Marking deprecations using the type system,Warning Framework,False
+Doc/whatsnew/3.14.rst,97,749,:,weak,0.0,563,0.6667,:ref:`Deferred evaluation of annotations,Implementing PEP 649,Postponed Evaluation of Annotations,False
+Doc/whatsnew/3.14.rst,104,765,:,weak,0.25,319,0.3333,:ref:`Control flow in finally blocks,Disallow return/break/continue that exit a finally block,Python Synchronize/Asynchronize Block,False
+Doc/whatsnew/3.14.rst,148,749,:,weak,0.0,563,0.6667,Deferred evaluation of annotations,Implementing PEP 649,Postponed Evaluation of Annotations,False
+Doc/whatsnew/3.14.rst,932,765,:,weak,0.25,319,0.3333,Control flow in finally blocks,Disallow return/break/continue that exit a finally block,Python Synchronize/Asynchronize Block,False
+Doc/whatsnew/3.15.rst,119,799,:,weak,0.0,9,0.3333,:ref:`Tachyon: High-frequency statistical sampling profiler,A dedicated ``profiling`` package for organizing Python profiling tools,Sample Plaintext PEP Template,False
+Doc/whatsnew/3.15.rst,564,793,",",weak,0.0,3133,0.5,with a new PySlot structure introduced in 820.,PyModExport: A new entry point for C extension modules,Introducing Roles,True
+Doc/whatsnew/3.15.rst,1832,800,:,miscite,0.5,3129,1.0,"Add typing.disjoint_base, a new decorator marking a class",Disjoint bases in the type system,Class Decorators,False
+Doc/whatsnew/3.2.rst,234,3148,:,weak,0.25,2,0.5,The concurrent.futures module,futures - execute computations asynchronously,Procedure for Adding New Modules,False
+Doc/whatsnew/3.3.rst,2155,393,",",weak,0.3333,349,0.5,some operations on Unicode strings have been optimized:,Flexible String Representation,Allow str() to return unicode strings,False
+Doc/whatsnew/3.3.rst,2230,393,",",weak,0.0,540,0.6667,"use UTF-8, UTF-16 (utf-16-le or utf-16-be), or UTF-32",Flexible String Representation,Add a new UTF-8 Mode,False
+Doc/whatsnew/3.3.rst,2473,393,",",weak,0.0,100,0.5,the Py_UNICODE type and all,Flexible String Representation,Python Unicode Integration,False
+Doc/whatsnew/3.3.rst,2477,393,",",weak,0.0,670,0.2,you have to convert,Flexible String Representation,Convert macros to functions in the Python C API,False
+Doc/whatsnew/3.4.rst,163,442,",",weak,0.0,2,0.5,in most cases :ref:`module globals are no longer set,Safe object finalization,Procedure for Adding New Modules,False
+Doc/whatsnew/3.6.rst,363,487,:,weak,0.0,351,0.5,Descriptor Protocol Enhancements,Simpler customisation of class creation,The freeze protocol,False
+Doc/whatsnew/3.6.rst,2253,487,",",weak,0.0,472,0.6667,the handling of keyword arguments passed to,Simpler customisation of class creation,Support for indexing with keyword arguments,False
+Doc/whatsnew/3.7.rst,78,562,",",weak,0.3333,213,0.6667,customization of access to module attributes.,Module __getattr__ and __dir__,Attribute Access Handlers,True
+Doc/whatsnew/3.7.rst,106,565,",",weak,0.3333,441,0.3333,improved DeprecationWarning handling,Show DeprecationWarning in __main__,Improving Python ZIP Application Support,True
+Doc/whatsnew/3.7.rst,320,562,:,weak,0.3333,213,0.6667,Customization of Access to Module Attributes,Module __getattr__ and __dir__,Attribute Access Handlers,False
+Doc/whatsnew/3.8.rst,1342,544,",",weak,0.3333,255,0.5,typing.Protocol and typing.runtime_checkable.  Simple ABCs like,Protocols: Structural subtyping (static duck typing),Simple Generators,True
+Doc/whatsnew/3.9.rst,1274,573,:,weak,0.0,0,0.0,Added PyType_FromModuleAndSpec to associate,Module State Access from C Extension Methods,Index of Python Enhancement Proposals (PEPs),False
+Doc/whatsnew/3.9.rst,1475,393,",",weak,0.0,232,0.5,and broken since Python 3.3. The PyUnicode_Tailmatch function can be,Flexible String Representation,Function Attributes,True

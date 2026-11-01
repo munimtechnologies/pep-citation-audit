@@ -1,0 +1,68 @@
+{
+ "P1_positive_control": {
+  "n": 2,
+  "rows": [
+   {
+    "best_other": 689,
+    "flag": "miscite",
+    "line": 136
+   },
+   {
+    "best_other": 689,
+    "flag": "miscite",
+    "line": 1866
+   }
+  ],
+  "verdict": "HELD"
+ },
+ "P2_dash_titles_match": {
+  "bar": 0.95,
+  "good": 239,
+  "n": 245,
+  "share": 0.9755102040816327,
+  "verdict": "HELD"
+ },
+ "P3_new_confirmed_miscitation": {
+  "leads": 1,
+  "verdict": "PENDING_HAND_REVIEW"
+ },
+ "P4_detector_precision": {
+  "bar": 0.5,
+  "leads": 1,
+  "verdict": "PENDING_HAND_REVIEW"
+ },
+ "flags": {
+  "miscite": 3,
+  "ok": 544,
+  "weak": 89
+ },
+ "miscite_leads": [
+  {
+   "best_other": 3129,
+   "best_other_score": 1.0,
+   "best_other_title": "Class Decorators",
+   "cited_score": 0.5,
+   "cited_title": "Disjoint bases in the type system",
+   "file": "Doc/whatsnew/3.15.rst",
+   "flag": "miscite",
+   "from_next_line": false,
+   "label": "Add typing.disjoint_base, a new decorator marking a class",
+   "line": 1832,
+   "pep": 800,
+   "sep": ":"
+  }
+ ],
+ "n_files_with_rows": 71,
+ "n_rows": 636,
+ "source": {
+  "cpython_commit": "9c0cfb141c236c902954841bb6cca407f86e1eeb",
+  "cpython_tarball": "https://codeload.github.com/python/cpython/tar.gz/refs/heads/main",
+  "cpython_tarball_sha256": "dbfd6da90abf14d14e6313a584eb2ff39cb9468b5a0d873438173e395d75ea46",
+  "fetched_at": "2026-11-01T08:33:21Z",
+  "n_doc_rst_files": 560,
+  "n_peps": 747,
+  "peps_json_sha256": "bb8fea4b312906c4532bb368b11f7b5c0d48114d36797f809017e5af1f371ecd",
+  "peps_json_url": "https://peps.python.org/api/peps.json"
+ },
+ "unknown_pep": []
+}

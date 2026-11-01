@@ -13,8 +13,12 @@ CC BY 4.0.
 
 - 2026-10-31: pre-registered (PREREG.md) before the data run. The positive control is a real error
   found by hand in munimtechnologies/pep-version-whatsnew-audit: What's New in Python 3.12 credits
-  the Unstable C API tier to PEP 697 instead of PEP 689. Results, including failed predictions,
-  will be added here.
+  the Unstable C API tier to PEP 697 instead of PEP 689.
+- 2026-11-01: run 1 graded (GRADING.md). 636 citation pairs in 71 files. P1 (control found) and P2
+  (97.6% of dash-separated title pairs match) held. P3 and P4 **failed**: the one new lead was
+  the right PEP, and a read of all 89 weak rows found no other clear-cut wrong number (one
+  debatable 2.7 case). The 3.12 slip looks isolated. FIXLIST.md has the details; results are in
+  `results/`.
 
 ## Run
 
